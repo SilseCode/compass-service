@@ -1,0 +1,10 @@
+﻿.compass-font {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.text-size-20 {
+    font-size: 20px;
+}
+.translucent {
+    color: rgba(0, 0, 0, 0.5);
+}

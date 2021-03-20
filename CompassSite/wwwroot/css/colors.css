@@ -1,0 +1,14 @@
+﻿.compass-red {
+    color: #810913;
+}
+
+
+.translucent {
+    color: rgba(0, 0, 0, 0.5);
+}
+.compass-bg {
+    background: linear-gradient(to right, #FFFF55, #810913);
+}
+.compass-shadow {
+    text-shadow: -2px 0 #FFFF55, 0 2px #FFFF55, 2px 0 #FFFF55, 0 -2px #FFFF55;
+}

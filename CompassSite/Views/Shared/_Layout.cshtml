@@ -1,48 +1,124 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - CompassSite</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>@ViewData["Title"] </title>
+   <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+   <link rel="stylesheet" href="~/css/site.css" />
+   <link rel="stylesheet" href="~/css/text.css" />
+   <link rel="stylesheet" href="~/css/colors.css" />
+   <link rel="stylesheet" href="~/css/sizes.css" />
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">CompassSite</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+   <header class="d-flex row compass-bg mx-0">
+      <div class="d-flex col-sm-12 col-md-3 col-lg-3 justify-content-center">
+         <img src="@Url.Content("~/images/compass_logo.png")" class="" />
+      </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2021 - CompassSite - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @RenderSection("Scripts", required: false)
+      <div class="d-flex flex-column col-sm-12 col-md-4 col-lg-4 align-content-center justify-content-center text-center text-md-left text-lg-left">
+         <div class="">
+            <span class="compass-shadow brand ">СЦ - Компас</span>
+            <h5 class="text-size-20 overflow-hidden p-0">Профессиональный и качественный сервис</h5>
+         </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg text-center">
+         <div class="d-flex  justify-content-center align-items-center h-100 flex-column">
+            <div class="">
+               <h3 class="compass-shadow col-12 col-md-12 col-lg-12 ">Свяжитесь с нами:</h3>
+            </div>
+            <div class="">
+               <ul class="list-unstyled align-items-center col-12 col-md-12 col-lg-12">
+                  <li><span>Телефон: 8(800) 111-222-333</span></li>
+                  <li><span>Email: compass@gmail.com</span></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+
+   </header>
+
+   <nav class="navbar navbar-expand-sm navbar-dark bg-dark pb-3 pt-3">
+      <div class="navbar-collapse collapse justify-content-center" id="toogleContent">
+         <ul class="navbar-nav flex-grow-1 justify-content-start">
+            <li class="nav-item ml-2">
+               <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">ГЛАВНАЯ</a>
+            </li>
+            <li class="nav-item ml-2">
+               <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="About">О НАС</a>
+            </li>
+            <li class="nav-item ml-2">
+               <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Contacts">КОНТАКТЫ</a>
+            </li>
+            <li class="nav-item ml-2">
+               <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Services">УСЛУГИ</a>
+            </li>
+            <li class="nav-item ml-2">
+               <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Products">КАТАЛОГ ТОВАРОВ</a>
+            </li>
+         </ul>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toogleContent" aria-controls="toogleContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      @*<span class="shopping-cart nav-item navbar-collapse collapse justify-content-end">
+            <a class="nav-link text-white" asp-controller="Product" asp-action="ShopCart"><img src="~/images/shopping_cart.png" alt="Корзина" />Корзина</a>
+         </span>
+         <div class="nav-item navbar-collapse collapse">
+            @{
+               if (User.Identity.IsAuthenticated)
+               {
+                  <span class="navbar-brand">@User.Identity.Name</span>
+                  <form asp-action="Logout" asp-controller="Account" method="post">
+                     <input class="btn btn-sm btn-light btn" type="submit" value="Выход">
+                  </form>
+               }
+               else
+               {
+                  <div class="nav-item justify-content-between">
+                     <a class="btn-link text-decoration-none text-white justify-content-end border-light" asp-controller="Account" asp-action="Login">Login</a>
+                     <a class="btn-link text-decoration-none text-white justify-content-end border-light" asp-controller="Account" asp-action="Register">Register</a>
+                  </div>
+               }
+            }
+         </div>*@
+   </nav>
+   <main class=" compass-font">
+      @RenderBody()
+   </main>
+   <hr />
+   <footer class="h-25 bg-dark text-white">
+      <div class="container d-flex justify-content-start">
+         <div class="pt-5 pr-5">
+            <h3>ООО "Компас"</h3>
+            <p>Наш сервисный центр находится по следующему адресу:</p>
+            <span>Ставропольский край, ст. Ессентукская, улица Гагарина 112а</span>
+
+            <div class="font-weight-bold">
+               <p>
+                  <span>Сотовый</span> - 8(800) 111-222-333<br />
+                  <span>Электронный адрес</span> - compass@gmail.com<br />
+                  <span>Веб-сайт</span> - compass.herokuapp.com<br />
+               </p>
+            </div>
+         </div>
+         <div class="pt-5 text-white">
+            <h3>Ссылки</h3>
+            <ul class="navbar-nav">
+               <li class="nav-item"><a class="text-white font-weight-bold" asp-controller="Home" asp-action="Index">Главная</a></li>
+               <li class="nav-item"><a class="text-white font-weight-bold" asp-controller="Home" asp-action="About">О нас</a></li>
+               <li class="nav-item"><a class="text-white font-weight-bold" asp-controller="Home" asp-action="Contacts">Контакты</a></li>
+               <li class="nav-item"><a class="text-white font-weight-bold" asp-controller="Home" asp-action="Services">Услуги</a></li>
+            </ul>
+         </div>
+      </div>
+      <div class="d-flex w-100 justify-content-center">© Все права защищены Cервисный центр "Компас" 2010-2021 </div>
+   </footer>
+   <script src="~/lib/jquery/dist/jquery.min.js"></script>
+   <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="~/js/site.js" asp-append-version="true"></script>
+   @RenderSection("Scripts", required: false)
 </body>
 </html>
