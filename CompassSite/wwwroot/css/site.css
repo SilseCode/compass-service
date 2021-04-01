@@ -93,3 +93,6 @@ header img {
 .compass-image {
     border-radius: 10px;
 }
+.space {
+    margin-left: 0.5rem !important;
+}

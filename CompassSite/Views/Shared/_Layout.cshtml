@@ -4,7 +4,6 @@
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <title>@ViewData["Title"]</title>
-   <meta name="keywords" content="сервисный центр компас ессентуки починить компьютер в ессентуках сервисный центр в ессентуках"/>
    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
    <link rel="stylesheet" href="~/css/site.css" />
    <link rel="stylesheet" href="~/css/text.css" />
@@ -13,6 +12,7 @@
    <link rel="preconnect" href="https://fonts.gstatic.com">
    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
 </head>
+
 <body>
    <header class="d-flex row compass-bg mx-0">
       <div class="d-flex col-sm-12 col-md-3 col-lg-3 justify-content-center">
@@ -20,25 +20,25 @@
       </div>
 
       <div class="d-flex flex-column col-sm-12 col-md-4 col-lg-4 align-content-center justify-content-center text-center text-md-left text-lg-left">
-         <div class="">
-            <span class="compass-shadow brand ">СЦ - Компас</span>
+         <div>
+            <span class="compass-shadow brand ">СЦ "Компас"</span>
             <h5 class="text-size-20 overflow-hidden p-0 font-weight-bold">Профессиональный и качественный сервис</h5>
          </div>
       </div>
       <div class="col-sm-12 col-md-4 col-lg text-center">
          <div class="d-flex  justify-content-center align-items-center h-100 flex-column">
-            <div class="">
+            <div>
                <h2 class="compass-shadow col-12 col-md-12 col-lg-12 ">Свяжитесь с нами:</h2>
             </div>
-            <div class="">
-               <ul class="list-unstyled align-items-center col-12 col-md-12 col-lg-12 ">
-                  <li class="">Телефон: 8(800) 111-222-333</li>
-                  <li class="">Email: compass@gmail.com</li>
-               </ul>
+            <div class="font-weight-bold">
+               <div>
+                  <span>Телефон: 8 (905) 419-73-34</span> <br />
+                  <span class="ml-5 pl-4"><span class="space"></span>8 (87961) 5-12-17</span><br />
+               </div>
+               <span>Электронный адрес: kompasservice@yandex.ru</span> <br />
             </div>
          </div>
       </div>
-
    </header>
 
    <nav class="navbar navbar-expand-sm navbar-dark bg-dark pb-3 pt-3">
@@ -57,8 +57,8 @@
                <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Services">УСЛУГИ</a>
             </li>
             @*<li class="nav-item ml-2">
-               <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Products">КАТАЛОГ ТОВАРОВ</a>
-            </li>*@
+                  <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Products">КАТАЛОГ ТОВАРОВ</a>
+               </li>*@
          </ul>
       </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toogleContent" aria-controls="toogleContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -93,16 +93,17 @@
    <footer class="h-25 bg-dark text-white">
       <div class="container d-flex justify-content-start">
          <div class="pt-5 pr-5">
-            <h3>ООО "Компас"</h3>
+            <h3>СЦ "Компас"</h3>
             <p>Наш сервисный центр находится по следующему адресу:</p>
             <span>Ставропольский край, ст. Ессентукская, улица Гагарина 112а</span>
 
             <div class="font-weight-bold">
-               <p>
-                  <span>Сотовый</span> - 8(800) 111-222-333<br />
-                  <span>Электронный адрес</span> - compass@gmail.com<br />
-                  <span>Веб-сайт</span> - compass.herokuapp.com<br />
-               </p>
+               <div>
+                  <span>Телефон: 8 (905) 419-73-34</span> <br />
+                  <span class="ml-5 pl-4"><span class="space"></span>8 (87961) 5-12-17</span><br />
+               </div>
+               <span>Электронный адрес: kompasservice@yandex.ru</span> <br />
+               <span>Веб-сайт: compass-service.herokuapp.com</span> <br />
             </div>
          </div>
          <div class="pt-5 text-white">
