@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompassSite", "CompassSite\CompassSite.csproj", "{A76AAA40-61CA-4B73-937F-AB0C50C710D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Compass.Site", "CompassSite\Compass.Site.csproj", "{A76AAA40-61CA-4B73-937F-AB0C50C710D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compass.DataAccessLayer", "Compass.API\Compass.DataAccessLayer.csproj", "{8E75894F-28D4-4564-990E-B5D00828115D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compass.BLL", "Compass.BLL\Compass.BLL.csproj", "{0C6C3816-44E6-4849-9106-CB601D32112A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{A76AAA40-61CA-4B73-937F-AB0C50C710D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A76AAA40-61CA-4B73-937F-AB0C50C710D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A76AAA40-61CA-4B73-937F-AB0C50C710D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E75894F-28D4-4564-990E-B5D00828115D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E75894F-28D4-4564-990E-B5D00828115D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E75894F-28D4-4564-990E-B5D00828115D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E75894F-28D4-4564-990E-B5D00828115D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C6C3816-44E6-4849-9106-CB601D32112A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C6C3816-44E6-4849-9106-CB601D32112A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C6C3816-44E6-4849-9106-CB601D32112A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C6C3816-44E6-4849-9106-CB601D32112A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
