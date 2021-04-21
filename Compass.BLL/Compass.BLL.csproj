@@ -8,4 +8,9 @@
     <ProjectReference Include="..\Compass.API\Compass.DataAccessLayer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+
 </Project>
