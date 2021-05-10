@@ -1,0 +1,31 @@
+﻿@model CompassSite.Models.LoginViewModel
+@{
+   ViewData["Title"] = "Авторизация";
+}
+
+<div class="container d-flex flex-wrap justify-content-center mb-3 mt-3 p-4">
+   <form class="border p-5" asp-antiforgery="true" asp-controller="Account" asp-action="Login" asp-route-returnUrl="@Model.ReturnUrl">
+      <div class="validation" asp-validation-summary="ModelOnly"></div>
+      <div class="mb-3">
+         <label asp-for="Email"></label> <br />
+         <input asp-for="Email" />
+         <span asp-validation-for="Email"></span>
+      </div>
+      <div class="mb-3">
+         <label asp-for="Password"></label> <br />
+         <input asp-for="Password" />
+         <span asp-validation-for="Password"></span>
+      </div>
+      <div class="mb-3">
+         <label asp-for="RememberMe"></label><br />
+         <input asp-for="RememberMe" type="checkbox" />
+         <span asp-validation-for="RememberMe"></span>
+      </div>
+      <input class="btn btn-success btn-sm" type="submit" value="Авторизироваться" />
+   </form>
+</div>
+@section scripts{
+
+   <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+   <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

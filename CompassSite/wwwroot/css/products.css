@@ -1,0 +1,15 @@
+﻿.categories {
+}
+
+.category-item {
+    max-height: 2rem;
+    border-radius: 15px;
+}
+    .category-item:hover {
+        background-color: #FFFE55;
+    }
+.product {
+    max-width: 46.5rem;
+    min-height: 3.75rem;
+    border-bottom: 1px solid black;
+}

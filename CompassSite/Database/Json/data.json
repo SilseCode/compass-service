@@ -1,0 +1,2894 @@
+[
+  {
+    "Id": 115092,
+    "Name": "Монитор 18.5\" AOC E970Swn/01 Black TN LED 5ms 16:9 50M:1 200cd",
+    "Price": 7104.88,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 1,
+      "Name": "Мониторы"
+    }
+  },
+  {
+    "Id": 164061,
+    "Name": "Мышь Genius DX-110, 1000dpi, USB, чёрный",
+    "Price": 351.91,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 2,
+      "Name": "Компьютерные мыши"
+    }
+  },
+  {
+    "Id": 16834,
+    "Name": "Бумага A4 класс С, SVETOCOPY, 80г/м2, 500л, белизна 95%, 146% (CIE) [IP] #110086",
+    "Price": 292.32,
+    "ImgUrl": null,
+    "Count": 5,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 3,
+      "Name": "Канцелярия"
+    }
+  },
+  {
+    "Id": 21293,
+    "Name": "Бумага A4 Lomond Глянцевая  односторонняя 130 гр/м2, 25л. (0102041) {1/45}",
+    "Price": 237.22,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 3,
+      "Name": "Канцелярия"
+    }
+  },
+  {
+    "Id": 171651,
+    "Name": "Накопитель HDD 2.5\" 1Tb SATA-III Seagate Barracuda ST1000LM048 5400rpm 128Mb для ноутбука",
+    "Price": 4049.56,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 5,
+      "Name": "Жесткие диски"
+    }
+  },
+  {
+    "Id": 188183,
+    "Name": "Мышь Genius DX-110, 1000dpi, USB, красный",
+    "Price": 349.9,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 2,
+      "Name": "Компьютерные мыши"
+    }
+  },
+  {
+    "Id": 261400,
+    "Name": "Системный блок CityLine Home a5203 Ryzen5-3350G/8G/SSD240G/LP2208[500W]",
+    "Price": 33468.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 7,
+      "Name": "Компьютеры"
+    }
+  },
+  {
+    "Id": 186804,
+    "Name": "Накопитель HDD 3.5\"  6Tb SATA-III Western Digital Purple WD60PURZ 5400rpm 64MB",
+    "Price": 17950.8,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 5,
+      "Name": "Жесткие диски"
+    }
+  },
+  {
+    "Id": 260475,
+    "Name": "Видеокарта 10Gb Zotac ZT-A30800F-10P RTX 3080 AMP HOLO GDDR6X (320bit) HDMI/3xDP/DVI RTL",
+    "Price": 247071.6,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 9,
+      "Name": "Видеокарты"
+    }
+  },
+  {
+    "Id": 117195,
+    "Name": "Кабель удлинительный монитор-VGA card (15M-15F) 3м 2 фильтра PRO  (VVG6460-3M) VCOM",
+    "Price": 200.66,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 10,
+      "Name": "Кабели"
+    }
+  },
+  {
+    "Id": 248201,
+    "Name": "Видеокамера EZ-IP EZ-HAC-B1A11P-0280B (2.8 ММ) 1/2.7\", цветная, уличная, цилиндрическая, ИК подсветка",
+    "Price": 925.74,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 11,
+      "Name": "Видеокамеры"
+    }
+  },
+  {
+    "Id": 258175,
+    "Name": "Системный блок CityLine Office a3530 Ryzen3-3200G/8G/SSD240G/LP2201/450W",
+    "Price": 30372.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 7,
+      "Name": "Компьютеры"
+    }
+  },
+  {
+    "Id": 224389,
+    "Name": "Радар-детектор Artway RD-200 GPS Alligator",
+    "Price": 3487.2,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 13,
+      "Name": "Радары"
+    }
+  },
+  {
+    "Id": 211590,
+    "Name": "ИБП CyberPower UTI675E (675VA/360W/2 EURO)",
+    "Price": 3398.16,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 14,
+      "Name": "ИБП"
+    }
+  },
+  {
+    "Id": 229091,
+    "Name": "Корпус ATX BoxIT 4704BB без БП/1xUSB3.0/2xUSB2.0/full window/black",
+    "Price": 2541.06,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 15,
+      "Name": "Корпусы"
+    }
+  },
+  {
+    "Id": 241205,
+    "Name": "Колонки 2.0 Genius SP-Q180 RMS 6W, USB, синий",
+    "Price": 896.42,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 16,
+      "Name": "Аудио-техника"
+    }
+  },
+  {
+    "Id": 56673,
+    "Name": "Антивирус ESET NOD32  на 1 год на 3ПК Продление лицензии (коробка) (NOD32-ENA-RN(BOX3)-1-1)",
+    "Price": 1101.6,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 17,
+      "Name": "ПО"
+    }
+  },
+  {
+    "Id": 258496,
+    "Name": "Клавиатура Defender Next HB-440 USB, чёрный",
+    "Price": 279.31,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 18,
+      "Name": "Клавиатуры"
+    }
+  },
+  {
+    "Id": 187006,
+    "Name": "Аккумулятор внешний универсальный GC GP-3.0 BK  3000мАч  Black",
+    "Price": 331.2,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 19,
+      "Name": "Аккумуляторы"
+    }
+  },
+  {
+    "Id": 63962,
+    "Name": "Антивирус AVG Internet Security 3 computer (1 year)  + AVG Mobilation  (AVDISCAN12OXXS003)",
+    "Price": 336.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 17,
+      "Name": "ПО"
+    }
+  },
+  {
+    "Id": 191693,
+    "Name": "Мышь Crown CMM-21, 1600dpi, USB, чёрно-серебристый",
+    "Price": 253.09,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 2,
+      "Name": "Компьютерные мыши"
+    }
+  },
+  {
+    "Id": 260625,
+    "Name": "Ноутбук Dell Inspiron 3501 15.6\"FHD Ci3 1005G1/8Gb/256Gb SSD/Intel HD 620/WiFi/BT/Cam/Linux/mint 3501-8274",
+    "Price": 52647.24,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 22,
+      "Name": "Ноутбуки"
+    }
+  },
+  {
+    "Id": 222852,
+    "Name": "Видеокарта 6Gb PCI-Exp Gigabyte GV-N166TIXOC-6GD GTX1660TI GDDR6 (192bit) HDMI/DPх3 (RTL)",
+    "Price": 51062.16,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 9,
+      "Name": "Видеокарты"
+    }
+  },
+  {
+    "Id": 175101,
+    "Name": "Мышь A4 OP-720, 800dpi, USB, чёрный",
+    "Price": 291.42,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 2,
+      "Name": "Компьютерные мыши"
+    }
+  },
+  {
+    "Id": 243776,
+    "Name": "Смарт часы Canyon CNS-SW70BB влагозащищенные, черный",
+    "Price": 2978.88,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 25,
+      "Name": "Часы"
+    }
+  },
+  {
+    "Id": 261105,
+    "Name": "Ноутбук Lenovo V15-ADA 15.6\"FHD AMD Athlon 3050U/4Gb/128Gb SSD/WiFi/BT/CR/Cam/no OS/grey 82C7008QRU",
+    "Price": 43157.88,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 22,
+      "Name": "Ноутбуки"
+    }
+  },
+  {
+    "Id": 186634,
+    "Name": "Накопитель HDD 1000 Gb USB3.0 Western Digital Elements Portable WDBUZG0010BBK-WESN  2,5\" внешний, черный",
+    "Price": 4324.84,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 5,
+      "Name": "Жесткие диски"
+    }
+  },
+  {
+    "Id": 246903,
+    "Name": "Электросамокат Artway 4.0 AM2444 5,0\" 24V 4.0AH",
+    "Price": 12668.4,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 28,
+      "Name": "Разное"
+    }
+  },
+  {
+    "Id": 379,
+    "Name": "Коврик для мыши Buro пластиковый",
+    "Price": 62.52,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 29,
+      "Name": "Коврики"
+    }
+  },
+  {
+    "Id": 255528,
+    "Name": "Ноутбук Acer A315-23-R3LH 15.6\"FHD AMD Athlon Silver 3050U/4Gb/256Gb SSD/AMD Radeon/WiFi/BT/Cam/no OS/black NX.HVTER.001",
+    "Price": 43614.6,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 22,
+      "Name": "Ноутбуки"
+    }
+  },
+  {
+    "Id": 257562,
+    "Name": "Память USB 2.0 16 GB Hikvision, мет. корпус (HS-USB-M200(STD)/16G/EN)",
+    "Price": 269.23,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 31,
+      "Name": "Флешки"
+    }
+  },
+  {
+    "Id": 233285,
+    "Name": "Видеокарта 1Gb PCI-E ASUS GT710-SL-1GD5-BRK GDDR5 (32bit) DVI/HDMI (RTL)",
+    "Price": 4548.7,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 9,
+      "Name": "Видеокарты"
+    }
+  },
+  {
+    "Id": 218324,
+    "Name": "Кулер BoxIT BX-C290 Soc-115x/AM4/AM3+/FM2 3pin 2100RPM 20dB Al 75W 192g скоба+клипсы RTL",
+    "Price": 355.94,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 33,
+      "Name": "Кулеры"
+    }
+  },
+  {
+    "Id": 208577,
+    "Name": "Видеокарта 2Gb PCI-Exp Palit GeForce GT710 DDR3 (64bit)  DVI/HDMI/CRT (RTL) NEAT7100HD46-2080H",
+    "Price": 4419.62,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 9,
+      "Name": "Видеокарты"
+    }
+  },
+  {
+    "Id": 239289,
+    "Name": "Монитор 25\" Benq BL2581T Black IPS LED 5ms 16:10 178°/178 20M:1 HDMI DisplayPort DVI 300cd 1920x1200 FHD USB",
+    "Price": 21896.4,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 1,
+      "Name": "Мониторы"
+    }
+  },
+  {
+    "Id": 179225,
+    "Name": "Накопитель HDD 3.5\"  1Tb SATA-III Toshiba P300 HDWD110EZSTA 7200rpm 64MB RTL",
+    "Price": 3829.73,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 5,
+      "Name": "Жесткие диски"
+    }
+  },
+  {
+    "Id": 247443,
+    "Name": "Игровая консоль. Xbox One S 1 ТБ + STAR WARS JEDI FALLEN ORDER (234-01099)",
+    "Price": 27818.4,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 37,
+      "Name": "Игровые приставки"
+    }
+  },
+  {
+    "Id": 210415,
+    "Name": "Накопитель HDD 2.5\" 1Tb SATA-III Toshiba L200 HDWL110UZSVA 5400rpm 128Mb Slim (7mm) для ноутбука",
+    "Price": 3958.8,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 5,
+      "Name": "Жесткие диски"
+    }
+  },
+  {
+    "Id": 235538,
+    "Name": "Антивирус ESET NOD32  на 1 год на 1ПК Базовая лицензия (коробка) (NOD32-ENA-NS(ABOX)-1-1)",
+    "Price": 912.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 17,
+      "Name": "ПО"
+    }
+  },
+  {
+    "Id": 103999,
+    "Name": "Антивирус Kaspersky  Internet Security RU 2 ПК 1 год Базовая лицензия Box (KL1941RBBFS/KL1939RBBFS)",
+    "Price": 1538.4,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 17,
+      "Name": "ПО"
+    }
+  },
+  {
+    "Id": 107669,
+    "Name": "Коврик для мыши Defender School (ассорти- 5 видов) 240x190x0,4 мм,",
+    "Price": 70.58,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 29,
+      "Name": "Коврики"
+    }
+  },
+  {
+    "Id": 254086,
+    "Name": "Office 365 Personal 32/64 Russian Subscr 1YR Russia Only Mdls P6  (replace QQ2-00733) (QQ2-01047) для дома",
+    "Price": 3912.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 17,
+      "Name": "ПО"
+    }
+  },
+  {
+    "Id": 176950,
+    "Name": "Накопитель HDD  500 Gb USB3.0 Toshiba Canvio Ready HDTP205EK3AA, 2,5\" внешний, черный",
+    "Price": 4044.52,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 5,
+      "Name": "Жесткие диски"
+    }
+  },
+  {
+    "Id": 170304,
+    "Name": "Колонки 2.0 Defender SPK-33 RMS 5W, USB, чёрный",
+    "Price": 267.22,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 16,
+      "Name": "Аудио-техника"
+    }
+  },
+  {
+    "Id": 64776,
+    "Name": "Кабель USB 2.0 AB (m-m) 1,8 м PRO 2феррит Sven SV-015923",
+    "Price": 110.92,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 10,
+      "Name": "Кабели"
+    }
+  },
+  {
+    "Id": 142018,
+    "Name": "Колонки 2.0 Defender SPK-22  RMS 5W, USB, чёрный",
+    "Price": 227.89,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 16,
+      "Name": "Аудио-техника"
+    }
+  },
+  {
+    "Id": 248537,
+    "Name": "Видеокарта 2Gb PCI-Exp Sapphire ATI Radeon RX 550 PULSE OC GDDR5 (64bit) DVI/HDMI/DP (RET) 11268-21-20G",
+    "Price": 7463.84,
+    "ImgUrl": null,
+    "Count": 2,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 9,
+      "Name": "Видеокарты"
+    }
+  },
+  {
+    "Id": 158642,
+    "Name": "Кулер Deepcool CK-11508 Soc-1150/1155/1156 3pin 25dB Al 65W  винты",
+    "Price": 289.39,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 33,
+      "Name": "Кулеры"
+    }
+  },
+  {
+    "Id": 247438,
+    "Name": "Игровая консоль. Xbox One S 1 ТБ + GEARS 5,4,3,2,+ Gears of War Ultimate + XboxLiveGold 1м.+ Game Pass 1м (234-01030)",
+    "Price": 27818.4,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 37,
+      "Name": "Игровые приставки"
+    }
+  },
+  {
+    "Id": 121633,
+    "Name": "Клавиатура A4 KR-83B, USB, чёрный",
+    "Price": 706.86,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 18,
+      "Name": "Клавиатуры"
+    }
+  },
+  {
+    "Id": 218995,
+    "Name": "Вентилятор CROWN 80*80*25 2000об/мин 28дБ 3pin+MOLEX CMCF-8025S-800",
+    "Price": 118.98,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 33,
+      "Name": "Кулеры"
+    }
+  },
+  {
+    "Id": 256981,
+    "Name": "Видеокамера EZ-IP EZ-HAC-T1A11P-0280B (2.8 ММ) 1/2.7\", цветная, уличная, купольнаяя, ИК подсветка",
+    "Price": 925.74,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 11,
+      "Name": "Видеокамеры"
+    }
+  },
+  {
+    "Id": 178535,
+    "Name": "Память USB 2.0 16 GB Perfeo C 03, зеленый",
+    "Price": 269.23,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 31,
+      "Name": "Флешки"
+    }
+  },
+  {
+    "Id": 248431,
+    "Name": "Видеокамера Polyvision PN-A1-B2.8 v.2.1.1 (2.8 ММ) 1/4\" цветная, уличная, купольная, ИК подсветка, AHD/TVI/CVI/960h",
+    "Price": 1154.84,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 11,
+      "Name": "Видеокамеры"
+    }
+  },
+  {
+    "Id": 169534,
+    "Name": "Клавиатура Nakatomi Navigator KN-02P, PS/2",
+    "Price": 304.52,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 18,
+      "Name": "Клавиатуры"
+    }
+  },
+  {
+    "Id": 186196,
+    "Name": "Клавиатура Canyon CNE-CKEY01, USB, чёрный",
+    "Price": 435.6,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 18,
+      "Name": "Клавиатуры"
+    }
+  },
+  {
+    "Id": 257568,
+    "Name": "Память USB 2.0 16 GB Hikvision, поворт. колпачок (HS-USB-M200S(STD)/16G/OD)",
+    "Price": 244.02,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 31,
+      "Name": "Флешки"
+    }
+  },
+  {
+    "Id": 183536,
+    "Name": "MP3 Плеер Qumo Active Cool Black",
+    "Price": 162.35,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 16,
+      "Name": "Аудио-техника"
+    }
+  },
+  {
+    "Id": 198643,
+    "Name": "Звуковая карта C-Media CMI8738-LX 5.1 (OEM)",
+    "Price": 1140.44,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 59,
+      "Name": "Звуковые карты"
+    }
+  },
+  {
+    "Id": 208913,
+    "Name": "Кабель USB 2.0 AB (m-m) 3м Perfeo U4402",
+    "Price": 106.88,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 10,
+      "Name": "Кабели"
+    }
+  },
+  {
+    "Id": 191976,
+    "Name": "Колонки 2.1 Crown CMBS-160  RMS 16W, Bluetooth, FM, USB, ПДУ, МДФ, чёрный",
+    "Price": 2527.94,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 16,
+      "Name": "Аудио-техника"
+    }
+  },
+  {
+    "Id": 62868,
+    "Name": "Камера A4 PK-635E 1/6\" CMOS, 640480 пикс, USB, чёрный",
+    "Price": 1411.69,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 62,
+      "Name": "Камеры"
+    }
+  },
+  {
+    "Id": 258907,
+    "Name": "3D Ручка Cactus CS-3D-PEN-C-BL PLA ABS LCD голубой",
+    "Price": 1276.8,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 3,
+      "Name": "Канцелярия"
+    }
+  },
+  {
+    "Id": 238377,
+    "Name": "Фотобумага  A4 Cactus 130г/м2  20л  CS-GA413020ED Глянцевая",
+    "Price": 126.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 3,
+      "Name": "Канцелярия"
+    }
+  },
+  {
+    "Id": 149070,
+    "Name": "Мышь Canyon CNE-CMSW1G беспроводная, 1200 dpi, USB, чёрно-серый",
+    "Price": 396.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 2,
+      "Name": "Компьютерные мыши"
+    }
+  },
+  {
+    "Id": 234596,
+    "Name": "Камера  DAHUA DH-HAC-HDW1000RP-0280B (2,8MM ) 1/4\" цветная, уличная, купольная, ИК-подсветка, фиксированный объектив",
+    "Price": 973.08,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 11,
+      "Name": "Видеокамеры"
+    }
+  },
+  {
+    "Id": 110060,
+    "Name": "ИБП PowerCom RPT-600A 360W 3*IEC320 черный",
+    "Price": 3033.13,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 14,
+      "Name": "ИБП"
+    }
+  },
+  {
+    "Id": 227889,
+    "Name": "Аккумулятор внешний универсальный Crown CMPB-603 white (power bank) 10000 mAh",
+    "Price": 1352.21,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 19,
+      "Name": "Аккумуляторы"
+    }
+  },
+  {
+    "Id": 203403,
+    "Name": "Накопитель HDD  500 Gb USB3.0 Toshiba Canvio Basics HDTB405EK3AA, 2,5\" внешний, черный",
+    "Price": 3838.81,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 5,
+      "Name": "Жесткие диски"
+    }
+  },
+  {
+    "Id": 177262,
+    "Name": "Сетевой фильтр Sven Optima Base 1,8 м 5 розеток серый",
+    "Price": 195.62,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 28,
+      "Name": "Разное"
+    }
+  },
+  {
+    "Id": 255560,
+    "Name": "Монитор 25\" Dell U2520D черный IPS LED 5ms 16:9 178/178 HDMI DisplayPort Pivot 350cd Tilt USB",
+    "Price": 36179.52,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 1,
+      "Name": "Мониторы"
+    }
+  },
+  {
+    "Id": 249692,
+    "Name": "Мышь Rapoo M100 беспроводная, 1300dpi, Bluetooth/USB, silent, темно-серый",
+    "Price": 785.51,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 2,
+      "Name": "Компьютерные мыши"
+    }
+  },
+  {
+    "Id": 238589,
+    "Name": "М/плата Esonic H61FEL-U Socket1155 PCI-E/DSub/HDMI 2DDR-III mATX RTL",
+    "Price": 4611.2,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 73,
+      "Name": "Материнские платы"
+    }
+  },
+  {
+    "Id": 151681,
+    "Name": "Мышь Canyon CNE-CMS1, 1000dpi, USB, чёрный",
+    "Price": 184.68,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 2,
+      "Name": "Компьютерные мыши"
+    }
+  },
+  {
+    "Id": 149075,
+    "Name": "Мышь Canyon CNE-CMSW2 беспроводная, 800 dpi, USB, чёрный",
+    "Price": 366.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 2,
+      "Name": "Компьютерные мыши"
+    }
+  },
+  {
+    "Id": 248785,
+    "Name": "Мышь Gembird MOP-410-O, 1600dpi, покрытие soft touch, USB, оранжевый",
+    "Price": 262.18,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 2,
+      "Name": "Компьютерные мыши"
+    }
+  },
+  {
+    "Id": 185859,
+    "Name": "Накопитель HDD 3.5\"  1Tb SATA-III Western Digital Purple WD10PURZ 5400rpm 64MB",
+    "Price": 4763.47,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 5,
+      "Name": "Жесткие диски"
+    }
+  },
+  {
+    "Id": 185052,
+    "Name": "Видеокарта 4Gb PCI-Exp Gigabyte GV-N105TOC-4GD GTX1050Ti DDR5 (128bit) DVI/HDMI/DP (RTL)",
+    "Price": 24001.92,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 9,
+      "Name": "Видеокарты"
+    }
+  },
+  {
+    "Id": 260728,
+    "Name": "Мышь A4 Fstyler FM12S silent, 1200dpi, USB, белый",
+    "Price": 401.33,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 2,
+      "Name": "Компьютерные мыши"
+    }
+  },
+  {
+    "Id": 257557,
+    "Name": "Аккумулятор внешний универсальный Perfeo PF_B4296 10000mAh Black",
+    "Price": 556.61,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 19,
+      "Name": "Аккумуляторы"
+    }
+  },
+  {
+    "Id": 260402,
+    "Name": "Бумага A4 класс С, CANON YELLOW LABEL PRINT, 80г/м2, 500л, белизна 104%, 146% (CIE) 6821B001 {1/5}",
+    "Price": 284.76,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 3,
+      "Name": "Канцелярия"
+    }
+  },
+  {
+    "Id": 223474,
+    "Name": "Видеорегистратор Digma FreeDrive OJO 70 черный 480x640 480p 70гр. GPDV6624",
+    "Price": 1032.86,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 82,
+      "Name": "Видеорегистраторы"
+    }
+  },
+  {
+    "Id": 258465,
+    "Name": "Ноутбук Haier A1400EM 14.1\"HD Cel N3350/4Gb/64Gb eMMC/Intel HD/WF/BT/Cam/W10/silver TD0036476RU",
+    "Price": 25025.88,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 22,
+      "Name": "Ноутбуки"
+    }
+  },
+  {
+    "Id": 183538,
+    "Name": "MP3 Плеер Qumo Active Dark Blue",
+    "Price": 213.77,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 16,
+      "Name": "Аудио-техника"
+    }
+  },
+  {
+    "Id": 246276,
+    "Name": "Смарт часы детские Elari KidPhone \"Ну, погоди!\" белые",
+    "Price": 2375.46,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 25,
+      "Name": "Часы"
+    }
+  },
+  {
+    "Id": 223816,
+    "Name": "Видеокарта 1Gb PCI-E MSI GT 710 1GD3H LP GFGT710 GDDR3 (64bit) DVI/HDMI (RTL)",
+    "Price": 3887.21,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 9,
+      "Name": "Видеокарты"
+    }
+  },
+  {
+    "Id": 214236,
+    "Name": "М/плата Gigabyte H310M S2 2.0 Socket1151-v2 3xPCI-E/Dsub/2DDR4 mATX RTL",
+    "Price": 5009.51,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 73,
+      "Name": "Материнские платы"
+    }
+  },
+  {
+    "Id": 215337,
+    "Name": "Мышь Logitech G502 Hero игровая, 16000dpi, подсветка, USB, чёрный (910-005470)",
+    "Price": 8591.18,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 2,
+      "Name": "Компьютерные мыши"
+    }
+  },
+  {
+    "Id": 205256,
+    "Name": "ИБП CyberPower UTC850E (850VA/425W/RJ45/2 EURO)",
+    "Price": 3420.34,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 14,
+      "Name": "ИБП"
+    }
+  },
+  {
+    "Id": 187017,
+    "Name": "Аккумулятор внешний универсальный GC GP-10.0 BK 10000мАч  4USB с LED фонариком (Black)",
+    "Price": 652.8,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 19,
+      "Name": "Аккумуляторы"
+    }
+  },
+  {
+    "Id": 250992,
+    "Name": "Системный блок CityLine GTX i7635 Ci5-10400/8G/Int/1T/JAX-02[600W]",
+    "Price": 40368.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 7,
+      "Name": "Компьютеры"
+    }
+  },
+  {
+    "Id": 252268,
+    "Name": "Коврик для мыши Гарнизон GMP-135, рисунок- \"дроны\", ткань/резина, размеры 200 x 250",
+    "Price": 162.35,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 29,
+      "Name": "Коврики"
+    }
+  },
+  {
+    "Id": 254233,
+    "Name": "Игровая консоль Sony PlayStation4 PRO (1Tb) + HZG/GOW CUH-7208B PS719994602",
+    "Price": 44323.2,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 37,
+      "Name": "Игровые приставки"
+    }
+  },
+  {
+    "Id": 171661,
+    "Name": "Накопитель HDD 3.5\"  4Tb SATA-III Seagate Skyhawk ST4000VX007 5900rpm 64MB",
+    "Price": 10853.94,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 5,
+      "Name": "Жесткие диски"
+    }
+  },
+  {
+    "Id": 186635,
+    "Name": "Накопитель HDD  500 Gb USB3.0 Western Digital Elements Portable WDBUZG5000ABK-WESN 5400RPM, 2,5\" внешний,черный",
+    "Price": 4029.38,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 5,
+      "Name": "Жесткие диски"
+    }
+  },
+  {
+    "Id": 254671,
+    "Name": "Мышь Gembird MOP-420, 1000dpi, USB, черный",
+    "Price": 218.81,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 2,
+      "Name": "Компьютерные мыши"
+    }
+  },
+  {
+    "Id": 255267,
+    "Name": "Память USB 2.0 8 GB Netac U326, металл. золотистый (NT03U326N-008G-20PN)",
+    "Price": 255.11,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 31,
+      "Name": "Флешки"
+    }
+  },
+  {
+    "Id": 251858,
+    "Name": "Коврик для мыши Defender Ergo opti-laser Black (черный) 215х165х1.2 мм",
+    "Price": 193.61,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 29,
+      "Name": "Коврики"
+    }
+  },
+  {
+    "Id": 258432,
+    "Name": "Системный блок CityLine Home a5118 Athlon-200GE/8G/GT1030-2G/1T/LP2208[500W]",
+    "Price": 33840.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 7,
+      "Name": "Компьютеры"
+    }
+  },
+  {
+    "Id": 146842,
+    "Name": "Бумага A4 класс С, XEROX PERFECT PRINT PLUS, 80г/м2, 500л, белизна 104%, 150% (CIE) 003R97759P Финляндия {1/5/320}",
+    "Price": 286.02,
+    "ImgUrl": null,
+    "Count": 5,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 3,
+      "Name": "Канцелярия"
+    }
+  },
+  {
+    "Id": 131963,
+    "Name": "Кабель HDMI-HDMI ver:1.4, 1m, черный, позол.разъемы, экран, пакет, серия Light, Gembird CC-HDMI4L-1M",
+    "Price": 106.88,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 10,
+      "Name": "Кабели"
+    }
+  },
+  {
+    "Id": 247159,
+    "Name": "Процессор AMD Athlon 3000G Socket-AM4 YD3000C6M2OFH",
+    "Price": 5055.89,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 102,
+      "Name": "Процессоры"
+    }
+  },
+  {
+    "Id": 116072,
+    "Name": "Сетевой фильтр Defender ES 1.8 м 5 розеток черный",
+    "Price": 248.05,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 28,
+      "Name": "Разное"
+    }
+  },
+  {
+    "Id": 190632,
+    "Name": "Клавиатура Dialog Standart KS-030U, USB, чёрно-красный",
+    "Price": 330.74,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 18,
+      "Name": "Клавиатуры"
+    }
+  },
+  {
+    "Id": 234173,
+    "Name": "Видеорегистратор DAHUA DH-XVR4108C-X1 8-канальный, HDMI, VGA, 2хUSB2.0, RJ-45,1 отсек/HDD, мультиформатный",
+    "Price": 4788.72,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 82,
+      "Name": "Видеорегистраторы"
+    }
+  },
+  {
+    "Id": 149083,
+    "Name": "Камера Canyon CNE-CWC1, 1.3 Мп, USB, чёрный",
+    "Price": 1368.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 11,
+      "Name": "Видеокамеры"
+    }
+  },
+  {
+    "Id": 135948,
+    "Name": "Накопитель HDD 2.5\" 1Tb SATA-III Western Digital Red WD10JFCX 16Mb 5400rpm для ноутбука",
+    "Price": 7656.44,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 5,
+      "Name": "Жесткие диски"
+    }
+  },
+  {
+    "Id": 140576,
+    "Name": "Колонки 2.0 Dialog Colibri AC-01UP RMS 1W, USB, чёрный",
+    "Price": 238.98,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 16,
+      "Name": "Аудио-техника"
+    }
+  },
+  {
+    "Id": 188286,
+    "Name": "Мышь Genius Ammox M6-600 игровая, 5000dpi,подсветка, USB, чёрный",
+    "Price": 1752.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 2,
+      "Name": "Компьютерные мыши"
+    }
+  },
+  {
+    "Id": 247057,
+    "Name": "Процессор AMD Ryzen 3 3200G PRO Socket-AM4 YD320BC5M4MFH",
+    "Price": 11175.6,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 102,
+      "Name": "Процессоры"
+    }
+  },
+  {
+    "Id": 234145,
+    "Name": "Windows 10 Home 32-bit/64-bit Russian Only USB RS (replace KW9-00500, KW9-00253) (HAJ-00073)",
+    "Price": 10716.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 17,
+      "Name": "ПО"
+    }
+  },
+  {
+    "Id": 228361,
+    "Name": "Удлинитель Smartbuy 3 розетки, 3 м, круглый, белый (SBE-10-3-03-W)",
+    "Price": 247.04,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 28,
+      "Name": "Разное"
+    }
+  },
+  {
+    "Id": 224877,
+    "Name": "Корпус ATX CROWN CMC-610 500W PSU/ black",
+    "Price": 4414.58,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 15,
+      "Name": "Корпусы"
+    }
+  },
+  {
+    "Id": 248445,
+    "Name": "Системный блок CityLine Office i3637 Ci3-9100/4G/SSD240G/LP2201/450W",
+    "Price": 31668.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 7,
+      "Name": "Компьютеры"
+    }
+  },
+  {
+    "Id": 167955,
+    "Name": "Антивирус Kaspersky  Anti-Virus Russian Edition. 2 ПК 1 год Базовая лицензия Box (KL1171RBBFS)",
+    "Price": 1154.4,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 17,
+      "Name": "ПО"
+    }
+  },
+  {
+    "Id": 191977,
+    "Name": "Колонки 2.1 Crown CMBS-161  RMS 16W, Bluetooth, FM, USB, ПДУ, МДФ, чёрный",
+    "Price": 3486.89,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 16,
+      "Name": "Аудио-техника"
+    }
+  },
+  {
+    "Id": 261401,
+    "Name": "Системный блок CityLine GTX a7553 Ryzen5-3350G/8G/int.Radeon Vega10/1T/JAX-02[550W]",
+    "Price": 33624.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 7,
+      "Name": "Компьютеры"
+    }
+  },
+  {
+    "Id": 250994,
+    "Name": "Системный блок CityLine GTX i7636 W10H/Ci5-10400/8G/Int/1T/JAX-02[600W]",
+    "Price": 48264.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 7,
+      "Name": "Компьютеры"
+    }
+  },
+  {
+    "Id": 250729,
+    "Name": "Моноблок Acer AS C22-820 21.5\"FHD Pen J5040/4Gb/256Gb SSD/Intel HD 605/WiFi/BT/cam/W10H/Kb+m/silver DQ.BDZER.007",
+    "Price": 43596.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 7,
+      "Name": "Компьютеры"
+    }
+  },
+  {
+    "Id": 240477,
+    "Name": "Вентилятор CROWN 92*92*25 1800об/мин 20дБ 3pin+MOLEX CMCF-9225S-920, черный",
+    "Price": 156.3,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 33,
+      "Name": "Кулеры"
+    }
+  },
+  {
+    "Id": 135460,
+    "Name": "Мышь Crown CMM-20, 1600dpi, USB, белый",
+    "Price": 245.03,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 2,
+      "Name": "Компьютерные мыши"
+    }
+  },
+  {
+    "Id": 213101,
+    "Name": "Клавиатура Crown CMK-F02B USB, чёрный",
+    "Price": 340.82,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 18,
+      "Name": "Клавиатуры"
+    }
+  },
+  {
+    "Id": 236553,
+    "Name": "Корпус mATX Thermaltake Versa H17 Black w/o PSU CA-1J1-00S1NN-00",
+    "Price": 3847.88,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 15,
+      "Name": "Корпусы"
+    }
+  },
+  {
+    "Id": 131965,
+    "Name": "Кабель HDMI-HDMI ver:1.4, 1,8m, черный, позол.разъемы, экран, пакет, серия Light, Gembird CC-HDMI4L-6",
+    "Price": 133.1,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 10,
+      "Name": "Кабели"
+    }
+  },
+  {
+    "Id": 237103,
+    "Name": "Ноутбук Lenovo IdeaPad L340-15API 15.6\"FHD AMD Ryzen 3 3200U/8Gb/256Gb SSD/AMD Radeon Vega 3/WiFi/BT/Cam/DOS/granite black 81LW0054RK",
+    "Price": 48990.96,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 22,
+      "Name": "Ноутбуки"
+    }
+  },
+  {
+    "Id": 222631,
+    "Name": "Накопитель SSD GoodRam 120 GB SATA-III  CL100 (SSDPR-CL100-120-G2)",
+    "Price": 1911.84,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 126,
+      "Name": "SSD"
+    }
+  },
+  {
+    "Id": 234249,
+    "Name": "Корпус ATX BoxIT 4603BB без БП 2xUSB2.0/black-grafit",
+    "Price": 1700.09,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 15,
+      "Name": "Корпусы"
+    }
+  },
+  {
+    "Id": 239513,
+    "Name": "Корпус ATX BoxIT 4708BB без БП/1xUSB3.0/2xUSB2.0/full window/RGB лента/black",
+    "Price": 2756.84,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 15,
+      "Name": "Корпусы"
+    }
+  },
+  {
+    "Id": 255389,
+    "Name": "Навигатор GPS NAVITEL MS500, 5\"  4Gb",
+    "Price": 4617.6,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 129,
+      "Name": "Навигаторы"
+    }
+  },
+  {
+    "Id": 259519,
+    "Name": "Ноутбук HP 15-gw0028ur 15.6\"FHD AMD Ryzen 3 3250U/4Gb/256Gb SSD/AMD Radeon 620-2Gb/BT/WiFi/Cam/DOS/grey 22P42EA",
+    "Price": 42840.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 22,
+      "Name": "Ноутбуки"
+    }
+  },
+  {
+    "Id": 240529,
+    "Name": "М/плата Biostar H81MHV3 Socket1150 PCI-E/DSub/HDMI/2SATA3/2DDR-III mATX, (RTL)",
+    "Price": 5852.5,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 73,
+      "Name": "Материнские платы"
+    }
+  },
+  {
+    "Id": 235807,
+    "Name": "Навигатор GPS Prestigio GeoVision 5060, 5` (480*272) TN display, 128Mb, 4GB Flash, black, PROGOROD (Belarus, Russia, Ukraine). (SL2PGPS5060CIS04GBPG)",
+    "Price": 4069.2,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 129,
+      "Name": "Навигаторы"
+    }
+  },
+  {
+    "Id": 194320,
+    "Name": "Коврик для мыши Ritmix MPD-010 Black",
+    "Price": 67.56,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 29,
+      "Name": "Коврики"
+    }
+  },
+  {
+    "Id": 258731,
+    "Name": "Видеокарта 4Gb PCI-E MSI GTX 1650 GAMING X 4G GDDR5 (128bit) HDMI/2хDP (RTL)",
+    "Price": 24707.76,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 9,
+      "Name": "Видеокарты"
+    }
+  },
+  {
+    "Id": 176490,
+    "Name": "ИБП Ippon Back Basic 650 Euro",
+    "Price": 3018.01,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 14,
+      "Name": "ИБП"
+    }
+  },
+  {
+    "Id": 234252,
+    "Name": "Корпус mATX BoxIT 3016BB 450w 1xUSB3.0 + 2xUSB2.0  black",
+    "Price": 2849.62,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 15,
+      "Name": "Корпусы"
+    }
+  },
+  {
+    "Id": 259183,
+    "Name": "Ноутбук Acer EX215-31-C3FF 15.6\"FHD Cel N4020/4Gb/128Gb SSD/Intel HD/WiFi/BT/Cam/no OS/black NX.EFTER.00D",
+    "Price": 35298.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 22,
+      "Name": "Ноутбуки"
+    }
+  },
+  {
+    "Id": 260631,
+    "Name": "Клавиатура Crown CMGK-903 игровая, механическая, мультимедиа, подсветка, USB, чёрный",
+    "Price": 4054.6,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 18,
+      "Name": "Клавиатуры"
+    }
+  },
+  {
+    "Id": 223860,
+    "Name": "Видеокамера HiWatch DS-T103 (2,8мм) 1/4\" цветная, уличная, ИК подсветка, HD-TVI",
+    "Price": 1273.27,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 11,
+      "Name": "Видеокамеры"
+    }
+  },
+  {
+    "Id": 260737,
+    "Name": "Клавиатура A4 FStyler FK15 USB, белый",
+    "Price": 792.56,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 18,
+      "Name": "Клавиатуры"
+    }
+  },
+  {
+    "Id": 237219,
+    "Name": "Процессор AMD  A6 7480  Socket-FM2+ Radeon R5 AD7480ACI23AB",
+    "Price": 2632.81,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 102,
+      "Name": "Процессоры"
+    }
+  },
+  {
+    "Id": 175925,
+    "Name": "Видеокарта 4Gb PCI-E ASUS PH-GTX1050TI-4G GTX 1050Ti GDDR5 (128bit) DVI/HDMI/DP (RTL)",
+    "Price": 24084.6,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 9,
+      "Name": "Видеокарты"
+    }
+  },
+  {
+    "Id": 64022,
+    "Name": "Антивирус Dr Web  Security Space PRO, 2 ПК 12 месяцев Базовая лицензия (коробка) (BHW-B-12M-2A3)",
+    "Price": 1461.46,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 17,
+      "Name": "ПО"
+    }
+  },
+  {
+    "Id": 248111,
+    "Name": "Видеорегистратор DAHUA DH-XVR5104C-X1 4--канальный, HDMI, VGA, 2хUSB2.0, RJ-45, 1 отсек/HDD, мультиформатный",
+    "Price": 4038.18,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 82,
+      "Name": "Видеорегистраторы"
+    }
+  },
+  {
+    "Id": 240486,
+    "Name": "Корпус mATX Thermaltake Versa H18 Black w/o PSU CA-1J4-00S1WN-00",
+    "Price": 3381.01,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 15,
+      "Name": "Корпусы"
+    }
+  },
+  {
+    "Id": 237493,
+    "Name": "Моноблок MSI PRO 16 7M-057RU 15.6\" Cel 3865U/4Gb/500Gb/HD/WF/BT/Cam/DOS/Black 9S6-A61611-057",
+    "Price": 28590.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 7,
+      "Name": "Компьютеры"
+    }
+  },
+  {
+    "Id": 257219,
+    "Name": "Ноутбук Acer EX215-31-P5LC 15.6\"FHD Pen N5030/8Gb/256Gb SSD/Intel HD/WiFi/BT/Cam/no OS/black NX.EFTER.00N",
+    "Price": 41710.2,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 22,
+      "Name": "Ноутбуки"
+    }
+  },
+  {
+    "Id": 258020,
+    "Name": "Системный блок CityLine Office i3440 Pen-G6400/8G/SSD240G/LP2201/450W",
+    "Price": 27012.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 7,
+      "Name": "Компьютеры"
+    }
+  },
+  {
+    "Id": 104001,
+    "Name": "Антивирус Kaspersky  Internet Security RU 3 ПК 1 год Базовая лицензия Box (KL1941RBCFS/KL1939RBCFS)",
+    "Price": 1706.4,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 17,
+      "Name": "ПО"
+    }
+  },
+  {
+    "Id": 233286,
+    "Name": "Видеокарта 2Gb PCI-E ASUS PH-GT1030-O2G GT1030 GDDR5 (64bit) DVI/HDMI (RTL)",
+    "Price": 9179.05,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 9,
+      "Name": "Видеокарты"
+    }
+  },
+  {
+    "Id": 213756,
+    "Name": "Процессор AMD Ryzen 5 2600 Socket-AM4 YD2600BBM6IAF",
+    "Price": 12836.4,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 102,
+      "Name": "Процессоры"
+    }
+  },
+  {
+    "Id": 261727,
+    "Name": "Ноутбук Dell Inspiron 3583 15.6\"FHD Cel 4205U/4Gb/128Gb SSD/Intel HD 610/WiFi/BT/Cam/W10/silver 3583-5361",
+    "Price": 43438.56,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 22,
+      "Name": "Ноутбуки"
+    }
+  },
+  {
+    "Id": 257155,
+    "Name": "Ноутбук Acer EX215-31-C6FV 15.6\"FHD Cel N4020/4Gb/256Gb SSD/Intel HD/WiFi/BT/Cam/no OS/black NX.EFTER.00P",
+    "Price": 37641.72,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 22,
+      "Name": "Ноутбуки"
+    }
+  },
+  {
+    "Id": 224048,
+    "Name": "Мышь Defender Patch MS-759, 1000dpi, USB, чёрный",
+    "Price": 94.79,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 2,
+      "Name": "Компьютерные мыши"
+    }
+  },
+  {
+    "Id": 258526,
+    "Name": "Ноутбук Haier U1500SD 15.6\"FHD IPS Cel N4000/4Gb/128Gb SSD + 64Gb eMMC/UMA/WF/BT/Cam/5000 mAh/DOS/Blue TD0036478RU",
+    "Price": 28264.8,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 22,
+      "Name": "Ноутбуки"
+    }
+  },
+  {
+    "Id": 178182,
+    "Name": "Память USB 2.0  8 GB Perfeo C 04,черный",
+    "Price": 258.14,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 31,
+      "Name": "Флешки"
+    }
+  },
+  {
+    "Id": 239306,
+    "Name": "Системный блок CityLine Home a5116 Athlon-200GE/4G/GT710-2G/1T/LP2208[500W]",
+    "Price": 27624.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 7,
+      "Name": "Компьютеры"
+    }
+  },
+  {
+    "Id": 197784,
+    "Name": "Коврик для мыши Гарнизон GMP-100, игровой, дизайн-  игра Survarium, ткань/резина, размеры 200 x 250",
+    "Price": 167.39,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 29,
+      "Name": "Коврики"
+    }
+  },
+  {
+    "Id": 164945,
+    "Name": "Корпус ATX BoxIT 3305BB 400w black",
+    "Price": 2797.18,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 15,
+      "Name": "Корпусы"
+    }
+  },
+  {
+    "Id": 222193,
+    "Name": "Навигатор GPS NAVITEL N500 MAGNETIC, 5\"  8Gb, черный",
+    "Price": 5320.8,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 129,
+      "Name": "Навигаторы"
+    }
+  },
+  {
+    "Id": 168829,
+    "Name": "Видеорегистратор Artway AV-610",
+    "Price": 1801.2,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 82,
+      "Name": "Видеорегистраторы"
+    }
+  },
+  {
+    "Id": 254586,
+    "Name": "Моноблок Lenovo A340-22IGM 21.5\"FHD Pen G5040/4Gb/128GbSSD/Intel HD/DVD-RW/WiFi/BT/Cam/W10/kb&m/black F0EA004CRK",
+    "Price": 41036.4,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 7,
+      "Name": "Компьютеры"
+    }
+  },
+  {
+    "Id": 228928,
+    "Name": "Системный блок CityLine Office i3433 Pen-G5400/4G/SSD240G/LP2201/450W",
+    "Price": 25392.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 7,
+      "Name": "Компьютеры"
+    }
+  },
+  {
+    "Id": 256610,
+    "Name": "Память USB 2.0 32 GB Perfeo E 01, синий (эконом. серия)",
+    "Price": 291.42,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 31,
+      "Name": "Флешки"
+    }
+  },
+  {
+    "Id": 202117,
+    "Name": "Вентилятор Gembird 70*70*15 (питание от материнской платы, 3pin) втулка (D7015SM-3)",
+    "Price": 145.2,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 33,
+      "Name": "Кулеры"
+    }
+  },
+  {
+    "Id": 201321,
+    "Name": "Системный блок CityLine GS a5210 Ryzen3-2200G/4G/int.Radeon Vega8/1T/LP2208[500W]",
+    "Price": 26628.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 7,
+      "Name": "Компьютеры"
+    }
+  },
+  {
+    "Id": 180025,
+    "Name": "Накопитель HDD 2.5\"  500 Gb SATA-III Seagate ST500LM030 5400rpm 128Mb для ноутбука",
+    "Price": 3457.64,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 5,
+      "Name": "Жесткие диски"
+    }
+  },
+  {
+    "Id": 212879,
+    "Name": "М/плата Gigabyte H310M S2H Socket1151-v2 3xPCI-E/HDMI/DVI-D/VGA/2DDR4 mATX RTL",
+    "Price": 5201.1,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 73,
+      "Name": "Материнские платы"
+    }
+  },
+  {
+    "Id": 210419,
+    "Name": "Накопитель HDD 2.5\" 2Tb SATA-III Toshiba L200 HDWL120UZSVA 5400rpm 128Mb для ноутбука",
+    "Price": 6123.74,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 5,
+      "Name": "Жесткие диски"
+    }
+  },
+  {
+    "Id": 222714,
+    "Name": "Коврик для мыши Buro материя BU-CLOTH серый",
+    "Price": 60.5,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 29,
+      "Name": "Коврики"
+    }
+  },
+  {
+    "Id": 258778,
+    "Name": "Системный блок CityLine NetTop i1115 Cel-J4105/8G/SSD240G/WF/BT/GB-BLCE-4105R",
+    "Price": 20868.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 7,
+      "Name": "Компьютеры"
+    }
+  },
+  {
+    "Id": 256596,
+    "Name": "Ноутбук Asus X509FA-BQ854 15.6\"FHD Pen 5405U/4Gb/128Gb SSD/Intel HD/WiFi/BT/Cam/Endless/grey 90NB0MZ2-M15790",
+    "Price": 45454.32,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 22,
+      "Name": "Ноутбуки"
+    }
+  },
+  {
+    "Id": 245746,
+    "Name": "Плеер Ritmix FMT-B200 FM-трансмиттер",
+    "Price": 825.84,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 16,
+      "Name": "Аудио-техника"
+    }
+  },
+  {
+    "Id": 231834,
+    "Name": "3D ручка Cactus CS-3D-UV-PS фотополимерная черный",
+    "Price": 3595.2,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 3,
+      "Name": "Канцелярия"
+    }
+  },
+  {
+    "Id": 138910,
+    "Name": "Бумага A4 класс В, XEROX OFFICE, 80г/м2, 500л, белизна 110%, 161% (CIE) 421L91820",
+    "Price": 301.14,
+    "ImgUrl": null,
+    "Count": 5,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 3,
+      "Name": "Канцелярия"
+    }
+  },
+  {
+    "Id": 258466,
+    "Name": "Ноутбук Haier A1400SD 14.1\"HD Cel N3350/4Gb/128Gb SSD+64Gb eMMC/Intel HD/WF/BT/Cam/DOS/blackTD0036477RU",
+    "Price": 27196.32,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 22,
+      "Name": "Ноутбуки"
+    }
+  },
+  {
+    "Id": 176122,
+    "Name": "Память USB 2.0 64 GB Perfeo C 03, зеленый",
+    "Price": 424.51,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 31,
+      "Name": "Флешки"
+    }
+  },
+  {
+    "Id": 198403,
+    "Name": "Бумага цветная A4 Creative color Mix, 80г/м2, 100л, интенсив, 5цв.х 20л (БИpr-100r) #110504",
+    "Price": 196.03,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 3,
+      "Name": "Канцелярия"
+    }
+  },
+  {
+    "Id": 179009,
+    "Name": "Монитор 20\" HP EliteDisplay E202 black IPS LED 7ms 16:9 HDMI  M1F41AA",
+    "Price": 15177.72,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 1,
+      "Name": "Мониторы"
+    }
+  },
+  {
+    "Id": 185219,
+    "Name": "Видеокарта 4Gb PCI-E MSI GTX 1050Ti 4GT OC GTX1050Ti GDDR5 (128bit) DVI/HDMI/DP (RTL)",
+    "Price": 20680.32,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 9,
+      "Name": "Видеокарты"
+    }
+  },
+  {
+    "Id": 170025,
+    "Name": "Мышь Defender Optimum MB-160, 1000dpi, USB, чёрный",
+    "Price": 118.98,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 2,
+      "Name": "Компьютерные мыши"
+    }
+  },
+  {
+    "Id": 38678,
+    "Name": "Мышь A4 OP-620D-U1, 800dpi, USB, чёрный",
+    "Price": 352.92,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 2,
+      "Name": "Компьютерные мыши"
+    }
+  },
+  {
+    "Id": 217750,
+    "Name": "Видеорегистратор DAHUA DHI-NVR2104-4KS2 4-канальный, HDMI, RJ45, VGA, 1 отсек/HDD, 2хUSB, SATA",
+    "Price": 3845.58,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 82,
+      "Name": "Видеорегистраторы"
+    }
+  },
+  {
+    "Id": 224744,
+    "Name": "Клавиатура Defender Atlas HB-450 мультимедиа, USB, чёрный",
+    "Price": 332.76,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 18,
+      "Name": "Клавиатуры"
+    }
+  },
+  {
+    "Id": 255254,
+    "Name": "Память USB 2.0 64 GB Netac U185, белый (NT03U185N-064G-20WH)",
+    "Price": 388.21,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 31,
+      "Name": "Флешки"
+    }
+  },
+  {
+    "Id": 187343,
+    "Name": "Мышь Logitech M500, 1000dpi, USB, чёрный (910-003726)",
+    "Price": 2086.28,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 2,
+      "Name": "Компьютерные мыши"
+    }
+  },
+  {
+    "Id": 206009,
+    "Name": "Мышь Defender Optimum MB-270, 1000dpi, USB, чёрный",
+    "Price": 118.98,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 2,
+      "Name": "Компьютерные мыши"
+    }
+  },
+  {
+    "Id": 144647,
+    "Name": "Накопитель HDD 2.5\"  500 Gb SATA-III Western Digital Scorpio Black WD5000LPLX 32MB 7200rpm для ноутбука",
+    "Price": 3851.92,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 5,
+      "Name": "Жесткие диски"
+    }
+  },
+  {
+    "Id": 108509,
+    "Name": "Антивирус Dr Web  Security Space, 1 ПК 12 месяцев Базовая лицензия (коробка) (BHW-B-12M-1-A3)",
+    "Price": 947.38,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 17,
+      "Name": "ПО"
+    }
+  },
+  {
+    "Id": 261094,
+    "Name": "Ноутбук Lenovo ThinkBook 14 G2 ARE 14.0\"FHD AMD Ryzen 3 4300U/4Gb/256Gb SSD/AMD Radeon/WiFi/BT/Cam/no OS/grey 20VF004ERU",
+    "Price": 46028.28,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 22,
+      "Name": "Ноутбуки"
+    }
+  },
+  {
+    "Id": 190719,
+    "Name": "Мышь Genius DX-110, 1000dpi, USB, голубой",
+    "Price": 349.9,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 2,
+      "Name": "Компьютерные мыши"
+    }
+  },
+  {
+    "Id": 175141,
+    "Name": "Кулер CROWN CM-80 для Intel/AMD, TDP 65Вт, 115*103*42 мм",
+    "Price": 345.86,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 33,
+      "Name": "Кулеры"
+    }
+  },
+  {
+    "Id": 161398,
+    "Name": "Бумага цветная A4 Creative color 80г/м, 100 л. пастель желтая (БПpr-100ж) #110501",
+    "Price": 150.79,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 193,
+      "Name": "Канцелярия "
+    }
+  },
+  {
+    "Id": 236423,
+    "Name": "Корпус mITX CROWN CMC-170-103 PSU CM-PSDC95/USB3.0/ black",
+    "Price": 4872.37,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 15,
+      "Name": "Корпусы"
+    }
+  },
+  {
+    "Id": 150944,
+    "Name": "Звуковая карта Creative OMNI SURROUND USB 5.1 70SB156000002",
+    "Price": 6724.72,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 59,
+      "Name": "Звуковые карты"
+    }
+  },
+  {
+    "Id": 228858,
+    "Name": "Память USB 2.0 4 GB Perfeo E 01, красный (эконом. серия)",
+    "Price": 267.22,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 31,
+      "Name": "Флешки"
+    }
+  },
+  {
+    "Id": 215603,
+    "Name": "Office 2019 Home and Business 32/64 Russian Russia Only Medialess (T5D-03242)",
+    "Price": 21840.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 17,
+      "Name": "ПО"
+    }
+  },
+  {
+    "Id": 157972,
+    "Name": "Накопитель HDD 3.5\"  2Tb SATA-III Toshiba P300 HDWD120UZSVA 7200rpm 64MB",
+    "Price": 5311.01,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 5,
+      "Name": "Жесткие диски"
+    }
+  },
+  {
+    "Id": 190017,
+    "Name": "Радар-детектор Ritmix RAD-503ST GPS",
+    "Price": 4639.44,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 13,
+      "Name": "Радары"
+    }
+  },
+  {
+    "Id": 191722,
+    "Name": "Корпус mATX NAVAN IS003-BK 450W black",
+    "Price": 2921.21,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 15,
+      "Name": "Корпусы"
+    }
+  },
+  {
+    "Id": 216411,
+    "Name": "Кулер BoxIT BX-A310 Soc-AM3/AM3+/FM2 3pin 2200RPM 23.6dB Al 75W 240g скоба RTL",
+    "Price": 350.9,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 33,
+      "Name": "Кулеры"
+    }
+  },
+  {
+    "Id": 107863,
+    "Name": "Монитор 18.5\" Philips 193V5LSB2/10/62 Black LED LCD 5 ms 200 cd/m 10M",
+    "Price": 7485.02,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 1,
+      "Name": "Мониторы"
+    }
+  },
+  {
+    "Id": 232972,
+    "Name": "Windows 10 Pro 32-bit/64-bit Russian Only USB RS (replace FQC-10150, FQC-09118) (HAV-00105)",
+    "Price": 15780.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 17,
+      "Name": "ПО"
+    }
+  },
+  {
+    "Id": 258998,
+    "Name": "Ноутбук Asus X543MA-GQ1139T 15.6\"HD Pen N5030/4Gb/256Gb SSD/Intel HD/WiFi/BT/Cam/W10/grey 90NB0IR7-M22060",
+    "Price": 45929.4,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 22,
+      "Name": "Ноутбуки"
+    }
+  },
+  {
+    "Id": 162504,
+    "Name": "Плеер Ritmix FMT-A740 FM-трансмиттер",
+    "Price": 858.11,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 16,
+      "Name": "Аудио-техника"
+    }
+  },
+  {
+    "Id": 150099,
+    "Name": "Радар-детектор Ritmix RAD-305ST",
+    "Price": 3335.64,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 13,
+      "Name": "Радары"
+    }
+  },
+  {
+    "Id": 139287,
+    "Name": "Звуковая карта C-media CM108 TRAA71, 2.0 channel (7.1 virtual channel) (RTL)",
+    "Price": 521.32,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 59,
+      "Name": "Звуковые карты"
+    }
+  },
+  {
+    "Id": 171658,
+    "Name": "Накопитель HDD 3.5\"  1Tb SATA-III Seagate Skyhawk ST1000VX005 5900rpm 64Mb",
+    "Price": 4691.88,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 5,
+      "Name": "Жесткие диски"
+    }
+  },
+  {
+    "Id": 252421,
+    "Name": "Видеорегистратор Parkprofi R-2",
+    "Price": 964.8,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 82,
+      "Name": "Видеорегистраторы"
+    }
+  },
+  {
+    "Id": 223327,
+    "Name": "Накопитель SSD Apacer 128 GB AS350 SATA-III 7mm TLC (95.DB260.P100C/85.DB260.B100C)",
+    "Price": 1899.74,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 126,
+      "Name": "SSD"
+    }
+  },
+  {
+    "Id": 199015,
+    "Name": "Коврик для мыши Canyon DICNECMP2",
+    "Price": 195.6,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 29,
+      "Name": "Коврики"
+    }
+  },
+  {
+    "Id": 195635,
+    "Name": "Фотобумага 10*15 Cactus 180г/м2  50л  CS-GA618050ED  Глянцевая  {1/80}",
+    "Price": 84.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 3,
+      "Name": "Канцелярия"
+    }
+  },
+  {
+    "Id": 219778,
+    "Name": "Видеорегистратор Polyvision PVDR-A1-08P1 v.2.4.1 8-канальный, HDMI, VGA, 1 отсек HDD, мультиформатный",
+    "Price": 5368.03,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 82,
+      "Name": "Видеорегистраторы"
+    }
+  },
+  {
+    "Id": 173111,
+    "Name": "Видеорегистратор Artway AV-510",
+    "Price": 1597.2,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 82,
+      "Name": "Видеорегистраторы"
+    }
+  },
+  {
+    "Id": 172292,
+    "Name": "Клавиатура Defender HB-420, USB, чёрный",
+    "Price": 289.39,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 18,
+      "Name": "Клавиатуры"
+    }
+  },
+  {
+    "Id": 161409,
+    "Name": "Мышь Genius DX-120, 1000dpi, USB, чёрный",
+    "Price": 349.9,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 2,
+      "Name": "Компьютерные мыши"
+    }
+  },
+  {
+    "Id": 161393,
+    "Name": "Бумага цветная A4 Creative color 80г/м, 100 л. пастель розовая (БПpr-100р) #110502",
+    "Price": 151.87,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 3,
+      "Name": "Канцелярия"
+    }
+  },
+  {
+    "Id": 120971,
+    "Name": "Мышь A4 Bloody R3 игровая, беспроводная, 3200dpi, USB, чёрный",
+    "Price": 2666.09,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 2,
+      "Name": "Компьютерные мыши"
+    }
+  },
+  {
+    "Id": 167084,
+    "Name": "ИБП Ippon Back Basic 650",
+    "Price": 2824.4,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 14,
+      "Name": "ИБП"
+    }
+  },
+  {
+    "Id": 171633,
+    "Name": "Фотобумага  A4 Cactus 230г/м2  20л  CS-GA423020  Глянцевая  {1/28}",
+    "Price": 243.6,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 3,
+      "Name": "Канцелярия"
+    }
+  },
+  {
+    "Id": 228859,
+    "Name": "Память USB 2.0 4 GB Perfeo E 01, серебристый (эконом. серия)",
+    "Price": 270.24,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 31,
+      "Name": "Флешки"
+    }
+  },
+  {
+    "Id": 249560,
+    "Name": "Ноутбук Lenovo IdeaPad 3 15ARE05 15.6\"FHD IPS AMD Ryzen 3 4300U/8Gb/256Gb SSD/AMD Radeon/WiFi/BT/Cam/DOS/platinum grey 81W40032RK",
+    "Price": 48016.56,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 22,
+      "Name": "Ноутбуки"
+    }
+  },
+  {
+    "Id": 155534,
+    "Name": "Радар-детектор Ritmix RAD-505ST GPS",
+    "Price": 4906.66,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 13,
+      "Name": "Радары"
+    }
+  },
+  {
+    "Id": 136507,
+    "Name": "Мышь Gembird MUSOPTI8 -801U, 800dpi, USB, чёрный",
+    "Price": 186.54,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 2,
+      "Name": "Компьютерные мыши"
+    }
+  },
+  {
+    "Id": 223861,
+    "Name": "Видеокамера HiWatch DS-T103 (3,6мм) 1/4\" цветная, уличная, ИК подсветка, HD-TVI",
+    "Price": 930.47,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 11,
+      "Name": "Видеокамеры"
+    }
+  },
+  {
+    "Id": 125329,
+    "Name": "Камера Defender C-090, 0.3 Мп, микрофон, USB, чёрно-серебряный",
+    "Price": 799.62,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 11,
+      "Name": "Видеокамеры"
+    }
+  },
+  {
+    "Id": 34291,
+    "Name": "Камера Microsoft LifeCam HD-3000, HD 720Р, USB, чёрный (T3H-00004/T4H-00004/T3H-00013)",
+    "Price": 3480.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 11,
+      "Name": "Видеокамеры"
+    }
+  },
+  {
+    "Id": 253683,
+    "Name": "MP3 Плеер Ritmix RF-3490 4GB White",
+    "Price": 1818.06,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 16,
+      "Name": "Аудио-техника"
+    }
+  },
+  {
+    "Id": 258328,
+    "Name": "Системный блок CityLine Game i7439 Ci3-10100F/8G/GTX1050Ti-4G/1T/SM3405[600W]Black",
+    "Price": 51828.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 7,
+      "Name": "Компьютеры"
+    }
+  },
+  {
+    "Id": 261829,
+    "Name": "Ноутбук HP 15s-eq1122ur 15.6\"FHD AMD Athlon 3050U/8Gb/256Gb SSD/WiFi/BT/Cam/Free DOS/white 22P96EA",
+    "Price": 41313.6,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 22,
+      "Name": "Ноутбуки"
+    }
+  },
+  {
+    "Id": 52704,
+    "Name": "Камера Logitech HD WebCam C270, HD 720Р, USB, чёрный (960-001063)",
+    "Price": 2239.56,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 11,
+      "Name": "Видеокамеры"
+    }
+  },
+  {
+    "Id": 259380,
+    "Name": "Видеокарта 6Gb Zotac ZT-T16620F-10L GTX1660S GDDR6 (192bit) HDMI/3xDP/DVI RTL",
+    "Price": 44590.44,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 9,
+      "Name": "Видеокарты"
+    }
+  },
+  {
+    "Id": 228400,
+    "Name": "Сетевой фильтр Smartbuy 5 розеток, 1,8 м белый (SBSP-18-W)",
+    "Price": 247.04,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 28,
+      "Name": "Разное"
+    }
+  },
+  {
+    "Id": 233085,
+    "Name": "Видеорегистратор Ritmix AVR-180 (Start)",
+    "Price": 1592.2,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 82,
+      "Name": "Видеорегистраторы"
+    }
+  },
+  {
+    "Id": 115535,
+    "Name": "ИБП PowerCom RPT-600A 360W EURO",
+    "Price": 3066.41,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 14,
+      "Name": "ИБП"
+    }
+  },
+  {
+    "Id": 177804,
+    "Name": "Кабель HDMI-HDMI ver:1.4, 1m, плетеная оболочка, поз. конт. HDMI-03 Defender",
+    "Price": 128.06,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 10,
+      "Name": "Кабели"
+    }
+  },
+  {
+    "Id": 250134,
+    "Name": "Колонки портативные 1.0 Canyon CNE-CBTSP2BO RMS 4W, Bluetooth, AUX, микрофон, питание от аккумулятора, подсветка, чёрно-оранжевый",
+    "Price": 324.0,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 16,
+      "Name": "Аудио-техника"
+    }
+  },
+  {
+    "Id": 259910,
+    "Name": "Накопитель HDD 4000 Gb USB3.0 Seagate One Touch STKC4000403  2,5\" внешний, красный",
+    "Price": 9243.59,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 5,
+      "Name": "Жесткие диски"
+    }
+  },
+  {
+    "Id": 171948,
+    "Name": "MP3 Плеер Ritmix RF-1010 Red",
+    "Price": 224.87,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 16,
+      "Name": "Аудио-техника"
+    }
+  },
+  {
+    "Id": 202035,
+    "Name": "ИБП CyberPower UTC650EI (650VA/360W/RJ45/4 IEC)",
+    "Price": 2458.37,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 14,
+      "Name": "ИБП"
+    }
+  },
+  {
+    "Id": 200160,
+    "Name": "Корпус ATX BoxIT 3310BB 400w black",
+    "Price": 2797.18,
+    "ImgUrl": null,
+    "Count": 1,
+    "CategoryId": 0,
+    "Category": {
+      "Id": 15,
+      "Name": "Корпусы"
+    }
+  }
+]

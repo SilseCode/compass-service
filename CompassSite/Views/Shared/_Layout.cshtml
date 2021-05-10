@@ -9,6 +9,7 @@
    <link rel="stylesheet" href="~/css/text.css" />
    <link rel="stylesheet" href="~/css/colors.css" />
    <link rel="stylesheet" href="~/css/sizes.css" />
+   <link rel="stylesheet" href="~/css/products.css" />
    <link rel="preconnect" href="https://fonts.gstatic.com">
    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
 </head>
@@ -56,37 +57,37 @@
             <li class="nav-item ml-2">
                <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Services">УСЛУГИ</a>
             </li>
-            @*<li class="nav-item ml-2">
-                  <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Products">КАТАЛОГ ТОВАРОВ</a>
-               </li>*@
+            <li class="nav-item ml-2">
+               <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="Products" asp-route-page="1">КАТАЛОГ ТОВАРОВ</a>
+            </li>
          </ul>
       </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toogleContent" aria-controls="toogleContent" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
       </button>
-      @*<span class="shopping-cart nav-item navbar-collapse collapse justify-content-end">
-            <a class="nav-link text-white" asp-controller="Product" asp-action="ShopCart"><img src="~/images/shopping_cart.png" alt="Корзина" />Корзина</a>
-         </span>
-         <div class="nav-item navbar-collapse collapse">
-            @{
-               if (User.Identity.IsAuthenticated)
-               {
-                  <span class="navbar-brand">@User.Identity.Name</span>
-                  <form asp-action="Logout" asp-controller="Account" method="post">
-                     <input class="btn btn-sm btn-light btn" type="submit" value="Выход">
-                  </form>
-               }
-               else
-               {
-                  <div class="nav-item justify-content-between">
-                     <a class="btn-link text-decoration-none text-white justify-content-end border-light" asp-controller="Account" asp-action="Login">Login</a>
-                     <a class="btn-link text-decoration-none text-white justify-content-end border-light" asp-controller="Account" asp-action="Register">Register</a>
-                  </div>
-               }
+      <span class="shopping-cart nav-item navbar-collapse collapse justify-content-end">
+         <a class="nav-link text-white" asp-controller="Cart" asp-action="ShopCart"><img src="~/images/shopping_cart.png" alt="Корзина" />Корзина</a>
+      </span>
+      <div class="nav-item navbar-collapse collapse ">
+         @{
+            if (User.Identity.IsAuthenticated)
+            {
+               <span class="navbar-brand font-weight-bold">@User.Identity.Name</span>
+               <form asp-action="Logout" asp-controller="Account" method="post">
+                  <input class="btn btn-sm btn-light btn" type="submit" value="Выход">
+               </form>
             }
-         </div>*@
+            else
+            {
+               <div class="nav-item justify-content-between ">
+                  <a class="btn-link text-decoration-none text-white justify-content-end border-light font-weight-bolder" asp-controller="Account" asp-action="Login">Войти</a>
+                  <a class="btn-link text-decoration-none text-white justify-content-end border-light font-weight-bolder" asp-controller="Account" asp-action="Register">Регистрация</a>
+               </div>
+            }
+         }
+      </div>
    </nav>
-   <main class=" compass-font">
+   <main class="compass-font">
       @RenderBody()
    </main>
    <hr />

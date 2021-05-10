@@ -1,6 +1,12 @@
-using Compass.DataAccessLayer.Contexts;
+using Compass.Site.Database;
+using Compass.Site.Services;
+using CompassSite.Database.Contexts;
+using CompassSite.Database.Interfaces;
+using CompassSite.Database.Models;
+using CompassSite.Database.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -17,7 +23,23 @@ namespace CompassSite
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddIdentity<User, IdentityRole>(setup =>
+                {
+                    setup.Password.RequiredLength = 8;
+                    setup.Password.RequireDigit = false;
+                    setup.Password.RequireLowercase = false;
+                    setup.Password.RequireUppercase = false;
+                })
+                .AddEntityFrameworkStores<DatabaseContext>();
             RegisterDatabaseContext(services);
+            services.AddScoped<Initializer>();
+            services.AddTransient<ICartRepository, CartRepository>();
+            services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddTransient<ICategoryRepository, CategoryRepository>();
+            services.AddTransient<IUserRepository, UserRepository>();
+            services.AddTransient<ProductService>();
+            services.AddSession(session => session.IdleTimeout = new System.TimeSpan(3, 0, 0, 0));
+            services.AddMemoryCache();
         }
 
         private void RegisterDatabaseContext(IServiceCollection services)
@@ -33,7 +55,7 @@ namespace CompassSite
                     }
                 case "MySql":
                     {
-                        services.AddDbContext<DatabaseContext>(options => options.UseMySql(connectionString, ServerVersion.FromString(connectionString)));
+                        services.AddDbContext<DatabaseContext>(options => options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
                         break;
                     }
                 case "MsSql":
@@ -57,12 +79,14 @@ namespace CompassSite
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseRouting();
+            app.UseAuthentication();
             app.UseAuthorization();
+            app.UseSession();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Index}");
             });
         }
     }
