@@ -4,6 +4,7 @@ using CompassSite.Database.Contexts;
 using CompassSite.Database.Interfaces;
 using CompassSite.Database.Models;
 using CompassSite.Database.Repositories;
+using CompassSite.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
@@ -22,7 +23,7 @@ namespace CompassSite
         }
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
+            services.AddMvc();
             services.AddIdentity<User, IdentityRole>(setup =>
                 {
                     setup.Password.RequiredLength = 8;
@@ -38,6 +39,7 @@ namespace CompassSite
             services.AddTransient<ICategoryRepository, CategoryRepository>();
             services.AddTransient<IUserRepository, UserRepository>();
             services.AddTransient<ProductService>();
+            services.AddTransient<ShopCartManager>();
             services.AddSession(session => session.IdleTimeout = new System.TimeSpan(3, 0, 0, 0));
             services.AddMemoryCache();
         }

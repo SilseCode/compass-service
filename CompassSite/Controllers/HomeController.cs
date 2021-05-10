@@ -4,7 +4,9 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using Compass.Site.Database;
 using Compass.Site.Models;
@@ -13,6 +15,7 @@ using CompassSite.Database.Contexts;
 using CompassSite.Database.Interfaces;
 using CompassSite.Database.Models;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 
 namespace CompassSite.Controllers
 {
@@ -20,6 +23,8 @@ namespace CompassSite.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly ProductService _productService;
+        private readonly DatabaseContext _context;
+
         public HomeController(ILogger<HomeController> logger, Initializer initializer, ProductService productService)
         {
             _logger = logger;

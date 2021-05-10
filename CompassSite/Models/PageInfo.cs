@@ -17,6 +17,6 @@ public class PageInfo
     public PageInfo(IEnumerable<Product> products)
     {
         TotalItems = products.Count();
-        PageSize = 10;
+        PageSize = 5;
     }
 }

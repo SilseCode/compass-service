@@ -8,17 +8,18 @@ using CompassSite.Database.Models;
 using CompassSite.Database.Repositories;
 using CompassSite.Services;
 using Microsoft.AspNetCore.Mvc;
+using SilseShop.Models;
 
 namespace Compass.Site.Controllers
 {
     public class CartController : Controller
     {
-        private readonly ProductRepository _productRepository;
+        private readonly IProductRepository _productRepository;
         private ShopCartManager _cartManager;
         private readonly ICartRepository _cartRepository;
-        public CartController(ProductRepository productRepositoryRepository, ShopCartManager cartManager, ICartRepository cartRepository)
+        public CartController(IProductRepository productRepository, ShopCartManager cartManager, ICartRepository cartRepository)
         {
-            _productRepository = productRepositoryRepository;
+            _productRepository = productRepository;
             _cartManager = cartManager;
             _cartRepository = cartRepository;
         }
@@ -26,11 +27,12 @@ namespace Compass.Site.Controllers
         [HttpPost]
         public async Task<IActionResult> AddToCart(int id)
         {
-            await _cartManager.AddToCart(_productRepository.Get(id));
+            Product product = _productRepository.Get(id);
+            await _cartManager.AddToCart(product);
             return RedirectToAction("ShopCart", "Cart");
         }
 
-        [HttpPost]
+        [HttpPost()]
         public async Task<IActionResult> DeleteFromCart(int id)
         {
             await _cartManager.DeleteFromCart(_productRepository.Get(id));
@@ -38,19 +40,18 @@ namespace Compass.Site.Controllers
         }
 
         [HttpGet]
-        public IActionResult ShopCart()
+        public async Task<IActionResult> ShopCart()
         {
-            ShopCart cart = _cartManager.GetCart();
-            //var shopCartItems = _cartRepository.GetItems(cart.Id).Select(t=> new ProductsViewModel(t.Product));
-            //return View(shopCartItems);
-            throw new NotImplementedException();
+            ShopCart cart = await _cartManager.GetCart();
+            return View(cart);
         }
 
         [HttpGet]
-        public IActionResult GetProduct(int id)
+        public async Task<IActionResult> GetProduct(int id)
         {
             Product product = _productRepository.Get(id);
             return new ObjectResult(product);
         }
+
     }
 }

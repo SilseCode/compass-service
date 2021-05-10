@@ -1,0 +1,34 @@
+﻿@model SilseShop.Models.ShopCartItem
+@{
+   ViewData["Title"] = "ShopCartItem";
+}
+<div class="shop-cart-item row justify-content-center mt-3">
+   <div class="col-3 m-0 p-0">
+      <img class="max-w-10 m-auto" src="@Url.Content($"{@Model.Product.Category.CommonProductImgUrl}")" />
+   </div>
+   <div class="col-6">
+      <a asp-controller="Product" asp-action="GetProductPage" asp-route-productId="@Model.Id">@Model.Product.Name</a>
+   </div>
+   <div class="row col-2 m-0 p-0">
+      <div class="d-flex flex-column align-content-between h-100 m-0 p-0">
+         <div class="col-6 m-0 p-0">
+            <span class="price"> @Math.Round((decimal)Model.Product.Price * Model.Count, 2) Руб. </span>
+         </div>
+         <div class="col-6 m-0 p-0">
+            <div class="d-flex justify-content-center ">
+               <form method="post" asp-controller="Cart" asp-action="DeleteFromCart" asp-route-id="@Model.Product.Id">
+                  @Html.HiddenFor(m => m.ProductId)
+                  <input class="btn btn-primary btn-sm" type="submit" value="-" />
+               </form>
+               <div class="ml-2 mr-2">
+                  <span class="font-weight-bold">@Model.Count</span>
+               </div>
+               <form method="post" asp-controller="Cart" asp-action="AddToCart" asp-route-id="@Model.Product.Id">
+                  @Html.HiddenFor(m => m.ProductId)
+                  <input class="btn btn-primary btn-sm" type="submit" value="+" />
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>

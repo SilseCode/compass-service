@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Compass.Site.Database;
 using Compass.Site.Models;
 using Compass.Site.Services;
 using CompassSite.Database.Interfaces;
@@ -14,10 +15,13 @@ namespace Compass.Site.Controllers
     public class ProductController : Controller
     {
         private readonly ProductService _productService;
+        private Initializer _initializer;
 
-        public ProductController(ProductService productService)
+        public ProductController(ProductService productService, Initializer initializer)
         {
             _productService = productService;
+            _initializer = initializer;
+            _initializer.Init();
         }
 
         public async Task<IActionResult> Products(int page = 1)
@@ -34,6 +38,11 @@ namespace Compass.Site.Controllers
             return View("Products",viewModel);
         }
 
-       
+
+        public IActionResult GetProductPage(int productId)
+        {
+            
+            return View("ProductPage");
+        }
     }
 }

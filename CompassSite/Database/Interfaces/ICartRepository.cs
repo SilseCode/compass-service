@@ -10,17 +10,17 @@ namespace CompassSite.Database.Interfaces
 {
     public interface ICartRepository
     {
-        public ShopCart GetCart(string id);
-        public IEnumerable<ShopCartItem> GetItems(string shopCartId);
-        public ShopCartItem GetItem(string shopCartId, int itemId);
+        public Task<ShopCart> GetCart(string id);
+        public Task<IEnumerable<ShopCartItem>> GetItems(string shopCartId);
+        public Task<ShopCartItem> GetItem(string shopCartId, int itemId);
 
-        public void UpdateCart(ShopCart shopCart);
-        public void UpdateCartItem(ShopCartItem shopCartItem);
-        public void RemoveCart(ShopCart shopCart);
-        public void RemoveCartItem(ShopCartItem shopCartItem);
+        public Task UpdateCart(ShopCart shopCart);
+        public Task UpdateCartItem(ShopCartItem shopCartItem);
+        public Task RemoveCart(ShopCart shopCart);
+        public Task RemoveCartItem(ShopCartItem shopCartItem);
 
-        public void CreateCart(ShopCart shopCart);
-        public void CreateCartItem(ShopCartItem shopCartItem);
+        public Task CreateCart(ShopCart shopCart);
+        public Task CreateCartItem(ShopCartItem shopCartItem);
         public Task SaveChangesAsync();
     }
 }

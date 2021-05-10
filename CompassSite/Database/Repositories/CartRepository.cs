@@ -20,49 +20,55 @@ namespace CompassSite.Database.Repositories
             _context = context;
         }
 
-        public ShopCart GetCart(string id)
+        public async Task<ShopCart> GetCart(string id)
         {
-           return _context.Carts.FirstOrDefault(t => t.Id == id);
+            return await _context.Carts.AsNoTracking()
+               .Include(t => t.ShopCartItems).ThenInclude(t=>t.Product).ThenInclude(t=>t.Category)
+               .FirstOrDefaultAsync(t => t.Id == id);
         }
 
-        public IEnumerable<ShopCartItem> GetItems(string shopCartId)
+        public async Task<IEnumerable<ShopCartItem>> GetItems(string shopCartId)
         {
-            return _context.CartItems.Where(t => t.ShopCartId == shopCartId);
+            return await _context.CartItems.AsNoTracking()
+               .Include(t => t.Product)
+               .Include(t=>t.Product.Category)
+               .Include(t => t.ShopCart)
+               .Where(t => t.ShopCartId == shopCartId).ToListAsync();
         }
 
-        public ShopCartItem GetItem(string shopCartId, int itemId)
+        public async Task<ShopCartItem> GetItem(string shopCartId, int itemId)
         {
-            return _context.CartItems.FirstOrDefault(t => t.ShopCartId == shopCartId && t.Id == itemId);
+            return await _context.CartItems.FirstOrDefaultAsync(t => t.ShopCartId == shopCartId && t.Id == itemId);
         }
 
-        public void UpdateCart(ShopCart shopCart)
+        public async Task UpdateCart(ShopCart shopCart)
         {
              _context.Carts.Update(shopCart);
         }
 
-        public void UpdateCartItem(ShopCartItem shopCartItem)
+        public async Task UpdateCartItem(ShopCartItem shopCartItem)
         {
             _context.CartItems.Update(shopCartItem);
         }
 
-        public void RemoveCart(ShopCart shopCart)
+        public async Task RemoveCart(ShopCart shopCart)
         {
             _context.Carts.Remove(shopCart);
         }
 
-        public void RemoveCartItem(ShopCartItem shopCartItem)
+        public async Task RemoveCartItem(ShopCartItem shopCartItem)
         {
             _context.CartItems.Remove(shopCartItem);
         }
 
-        public void CreateCart(ShopCart shopCart)
+        public async Task CreateCart(ShopCart shopCart)
         {
-            _context.Carts.Add(shopCart);
+            await _context.Carts.AddAsync(shopCart);
         }
 
-        public void CreateCartItem(ShopCartItem shopCartItem)
+        public async Task CreateCartItem(ShopCartItem shopCartItem)
         {
-            _context.CartItems.Add(shopCartItem);
+            await _context.CartItems.AddAsync(shopCartItem);
         }
 
         public async Task SaveChangesAsync()

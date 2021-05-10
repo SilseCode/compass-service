@@ -1,3 +1,20 @@
-﻿<div>
-   <h1>Корзина</h1>
+﻿@using Microsoft.AspNetCore.Mvc.Rendering
+@model CompassSite.Database.Models.ShopCart
+<div class=" container border">
+   @if (Model.ShopCartItems != null)
+   {
+      <div class="container justify-content-center">
+         @foreach (var item in Model.ShopCartItems)
+         {
+            @await Html.PartialAsync("ShopCartItem", item);
+         }
+      </div>
+   }
+   else
+   {
+      <div class="container m-auto mw-100 w-100 text-center">
+         <p>Корзина пуста</p>
+      </div>
+   }
+
 </div>

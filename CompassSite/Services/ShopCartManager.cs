@@ -27,49 +27,48 @@ namespace CompassSite.Services
 
         public async Task AddToCart(Product product)
         {
-            ShopCart cart = GetCart();
-            List<ShopCartItem> cartItems = _cartRepository.GetItems(cart.Id).ToList();
-            if (cartItems.Any(i => i.Product.Id == product.Id && i.ShopCartId == cart.Id))
+            ShopCart cart = await GetCart();
+            var cartItems = await _cartRepository.GetItems(cart.Id);
+            if (cartItems.Any(t => t.Product.Id == product.Id && t.ShopCartId == cart.Id))
             {
-                ShopCartItem item = cartItems.FirstOrDefault(i => i.Product.Id == product.Id && i.ShopCartId == cart.Id);
+                ShopCartItem item = cartItems.FirstOrDefault(t => t.Product.Id == product.Id && t.ShopCartId == cart.Id);
                 item.Count++;
-                _cartRepository.UpdateCartItem(item);
+                await _cartRepository.UpdateCartItem(item);
             }
             else
             {
                 ShopCartItem shopCartItem = new ShopCartItem()
                 {
-                    ShopCart = cart,
                     ShopCartId = cart.Id,
-                    Product = product,
+                    ProductId = product.Id,
                     Count = 1,
                 };
-                _cartRepository.CreateCartItem(shopCartItem);
+                await _cartRepository.CreateCartItem(shopCartItem);
             }
             await _cartRepository.SaveChangesAsync();
         }
 
         public async Task DeleteFromCart(Product product)
         {
-            ShopCart cart = GetCart();
-            List<ShopCartItem> cartItems = _cartRepository.GetItems(cart.Id).ToList();
+            ShopCart cart = await GetCart();
+            var cartItems = await _cartRepository.GetItems(cart.Id);
             if (cartItems.Any(i => i.Product.Id == product.Id && i.ShopCartId == cart.Id))
             {
                 ShopCartItem item = cartItems.FirstOrDefault(i => i.Product.Id == product.Id && i.ShopCartId == cart.Id);
                 item.Count--;
                 if (item.Count == 0)
                 {
-                    _cartRepository.RemoveCartItem(item);
+                    await _cartRepository.RemoveCartItem(item);
                 }
                 else
                 {
-                    _cartRepository.UpdateCartItem(item);
+                    await _cartRepository.UpdateCartItem(item);
                 }
                 await _cartRepository.SaveChangesAsync();
             }
         }
 
-        public ShopCart GetCart()
+        public async Task<ShopCart> GetCart()
         {
             HttpContext httpContext = _services.GetRequiredService<IHttpContextAccessor>()?.HttpContext;
             if (httpContext.Session.GetString("cart") == null)
@@ -79,14 +78,14 @@ namespace CompassSite.Services
                 cart.Id = cartId;
                 cart.DateCreation = DateTime.Now;
                 httpContext.Session.SetString("cart", cartId);
-                _cartRepository.CreateCart(cart);
-                _cartRepository.SaveChangesAsync();
+                await _cartRepository.CreateCart(cart);
+                await _cartRepository.SaveChangesAsync();
                 return cart;
             }
             else
             {
                 string cartId = httpContext.Session.GetString("cart");
-                ShopCart cart = _cartRepository.GetCart(cartId);
+                ShopCart cart = await _cartRepository.GetCart(cartId);
                 if (cart == null)
                 {
                     cart = new ShopCart();
@@ -94,8 +93,8 @@ namespace CompassSite.Services
                     cart.Id = cartId;
                     cart.DateCreation = DateTime.Now;
                     httpContext.Session.SetString("cart", cartId);
-                    _cartRepository.CreateCart(cart);
-                    _cartRepository.SaveChangesAsync();
+                    await _cartRepository.CreateCart(cart);
+                    await _cartRepository.SaveChangesAsync();
                     return cart;
                 }
                 return cart;
