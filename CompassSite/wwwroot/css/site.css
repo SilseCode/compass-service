@@ -90,9 +90,13 @@ header img {
     background-image: url("/images/slide3.jpg");
     color: white;
 }
-.compass-image {
-    border-radius: 10px;
+.compass-border {
+    border-radius: 15px;
 }
 .space {
     margin-left: 0.5rem !important;
+}
+.form-border {
+    border: 2px solid grey;
+    border-radius: 1px;
 }

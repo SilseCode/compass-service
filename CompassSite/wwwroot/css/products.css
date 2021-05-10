@@ -1,0 +1,47 @@
+﻿.categories {
+}
+
+.category-item {
+}
+
+    .category-item:hover {
+        box-shadow: 1px 5px 14px 7px rgba(34, 60, 80, 0.2);
+    }
+
+.category-link {
+    max-height: 3rem;
+    text-decoration: none;
+    color: black;
+}
+
+    .category-link:hover {
+    }
+
+.category-icon {
+    max-height: 32px;
+}
+
+.product {
+    max-width: 46.5rem;
+    min-height: 10rem;
+}
+
+.shop-cart-item {
+    min-height: 10rem;
+}
+
+    .shop-cart-item:hover {
+        box-shadow: 1px 5px 14px 7px rgba(34, 60, 80, 0.2);
+        border-radius: 15px;
+    }
+
+.price {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.product:hover {
+    box-shadow: 1px 5px 14px 7px rgba(34, 60, 80, 0.2);
+    border-radius: 15px;
+}

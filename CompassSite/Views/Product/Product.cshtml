@@ -1,0 +1,36 @@
+﻿@using CompassSite.Database.Models
+@model Product
+<div class="product border container row w-100 m-2 p-2">
+   <div class="col-3 m-0 p-0">
+      <img class="max-w-10 m-auto" src="@Url.Content($"{@Model.Category.CommonProductImgUrl}")" />
+   </div>
+   <div class="col-6">
+      <a asp-controller="Product" asp-action="GetProductPage" asp-route-productId="@Model.Id">@Model.Name</a>
+   </div>
+   <div class="row col-2 m-0 p-0">
+      <div class="d-flex flex-column align-content-between h-100 m-0 p-0">
+         <div class="col-6 m-0 p-0">
+            <span class="price"> @Math.Round((decimal)Model.Price, 2) Руб. </span>
+         </div>
+         <div class="col-6 m-0 p-0">
+            @if (Model.Count == 0)
+            {
+               <span>Нет в наличии</span>
+            }
+            else
+            {
+               <span>В наличии: @Model.Count</span>
+            }
+         </div>
+      </div>
+   </div>
+   <div class="col-1 m-0 p-0 ">
+      <div class="row flex-column-reverse h-100 m-0 p-0 ">
+         <form method="post" asp-controller="Cart" asp-action="AddToCart" asp-route-productId="@Model.Id">
+            @Html.HiddenFor(m => m.Id)
+            <input class="btn btn-dark btn-sm" type="submit" value="Купить" />
+         </form>
+      </div>
+   </div>
+</div>
+

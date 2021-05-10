@@ -1,0 +1,14 @@
+﻿@using CompassSite.Database.Models
+@model Category
+
+
+   <div class="category-item m-0 p-0 mb-1">
+      <a class="category-link" asp-controller="Product" asp-action="ProductsByCategory" asp-route-categoryId="@Model.Id">
+         <div class="container m-0 p-0 d-flex">
+            <img class="category-icon mr-1" src="@Url.Content(Model.IconUrl)" />
+            <div class="m-0 p-0">
+               <span>@Model.Name</span>
+            </div>
+         </div>
+      </a>
+   </div>

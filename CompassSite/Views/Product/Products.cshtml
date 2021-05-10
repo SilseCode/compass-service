@@ -1,0 +1,56 @@
+﻿@using Compass.Site.Models
+@using CompassSite.Database.Comparers
+@using CompassSite.Database.Models
+@model ProductsViewModel
+<div class="container mb-3 mt-3 m-4">
+   <div class="row justify-content-center">
+      <div class="categories border col-3 pb-1">
+         <h2>Категории</h2>
+         @foreach (Category category in Model.Categories.OrderBy(t => t.Name))
+         {
+            @await Html.PartialAsync("Category", category);
+         }
+      </div>
+      <div class="products  col-8 m-0 p-0 ml-4 justify-content-center">
+         @foreach (Product product in Model.Products)
+         {
+            @await Html.PartialAsync("Product", product);
+
+         }
+         <hr />
+         <div class="container">
+            <div class="row">
+               @for (int i = 1; i < Model.PageInfo.TotalPages + 1; i++)
+               {
+                  if (Model.PageInfo.CategoryId != 0)
+                  {
+                     if (Model.PageInfo.PageNumber == i)
+                     {
+                        <a class="btn btn-primary" asp-controller="Product" asp-action="ProductsByCategory" asp-route-categoryId="@Model.PageInfo.CategoryId" asp-route-page="@i">@i</a>
+                     }
+                     else
+                     {
+                        <a class="btn btn-default" asp-controller="Product" asp-action="ProductsByCategory" asp-route-categoryId="@Model.PageInfo.CategoryId" asp-route-page="@i">@i</a>
+                     }
+                  }
+                  else
+                  {
+                     if (Model.PageInfo.PageNumber == i)
+                     {
+                        <a class="btn btn-primary " asp-controller="Product" asp-action="Products" asp-route-page="@i">@i</a>
+
+                     }
+                     else
+                     {
+                        <a class="btn btn-default" asp-controller="Product" asp-action="Products" asp-route-page="@i">@i</a>
+                     }
+                  }
+               }
+
+            </div>
+         </div>
+
+      </div>
+
+   </div>
+</div>
