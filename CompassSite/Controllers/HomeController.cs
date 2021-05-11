@@ -23,9 +23,8 @@ namespace CompassSite.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly ProductService _productService;
-        private readonly DatabaseContext _context;
 
-        public HomeController(ILogger<HomeController> logger, Initializer initializer, ProductService productService)
+        public HomeController(ILogger<HomeController> logger, ProductService productService)
         {
             _logger = logger;
             _productService = productService;
