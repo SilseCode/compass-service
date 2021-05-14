@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Compass.Site.Models;
 using CompassSite.Database.Models;
 using CompassSite.Models;
 using Microsoft.AspNetCore.Identity;
@@ -32,7 +33,7 @@ namespace CompassSite.Controllers
             {
                 User identityUser = new User()
                 {
-                    UserName = model.Email,
+                    UserName = model.UserName,
                     Email = model.Email
                 };
                 IdentityResult result = await _userManager.CreateAsync(identityUser, model.Password);
@@ -68,7 +69,9 @@ namespace CompassSite.Controllers
         {
             if (ModelState.IsValid)
             {
-                SignInResult result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false);
+                User user = await _userManager.FindByEmailAsync(model.Email);
+                SignInResult result =
+                    await _signInManager.PasswordSignInAsync(user.UserName, model.Password, model.RememberMe, false);
 
                 if (result.Succeeded)
                 {
@@ -88,6 +91,7 @@ namespace CompassSite.Controllers
             await _signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
         }
+
 
     }
 }

@@ -30,6 +30,7 @@ namespace CompassSite
                     setup.Password.RequireDigit = false;
                     setup.Password.RequireLowercase = false;
                     setup.Password.RequireUppercase = false;
+                    setup.Password.RequireNonAlphanumeric = false;
                 })
                 .AddEntityFrameworkStores<DatabaseContext>();
             RegisterDatabaseContext(services);

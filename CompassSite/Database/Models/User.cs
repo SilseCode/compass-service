@@ -13,7 +13,7 @@ namespace CompassSite.Database.Models
         public string CartId { get; set; }
         [ForeignKey("CartId")]
         public ShopCart Cart { get; set; }
-
+        public string AvatarUrl { get; set; }
     }
     
 }

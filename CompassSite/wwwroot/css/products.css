@@ -20,7 +20,9 @@
 .category-icon {
     max-height: 32px;
 }
-
+.profile-img {
+    max-height: 300px;
+}
 .product {
     max-width: 46.5rem;
     min-height: 10rem;

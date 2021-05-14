@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNet.Identity
+<!DOCTYPE html>
 <html lang="en">
 <head>
    <meta charset="utf-8" />
@@ -72,7 +73,7 @@
          @{
             if (User.Identity.IsAuthenticated)
             {
-               <span class="navbar-brand font-weight-bold">@User.Identity.Name</span>
+                  <a asp-controller="Profile" asp-action="GetProfile" asp-route-userId="@User.Identity.GetUserId()"><span class="navbar-brand font-weight-bold">@User.Identity.Name</span></a>
                <form asp-action="Logout" asp-controller="Account" method="post">
                   <input class="btn btn-sm btn-light btn" type="submit" value="Выход">
                </form>
