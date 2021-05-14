@@ -35,12 +35,12 @@ namespace CompassSite
                 .AddEntityFrameworkStores<DatabaseContext>();
             RegisterDatabaseContext(services);
             services.AddScoped<Initializer>();
-            services.AddTransient<ICartRepository, CartRepository>();
-            services.AddTransient<IProductRepository, ProductRepository>();
-            services.AddTransient<ICategoryRepository, CategoryRepository>();
-            services.AddTransient<IUserRepository, UserRepository>();
-            services.AddTransient<ProductService>();
-            services.AddTransient<ShopCartManager>();
+            services.AddScoped<ICartRepository, CartRepository>();
+            services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<ProductService>();
+            services.AddScoped<ShopCartManager>();
             services.AddSession(session => session.IdleTimeout = new System.TimeSpan(3, 0, 0, 0));
             services.AddMemoryCache();
         }
@@ -58,17 +58,17 @@ namespace CompassSite
             {
                 case "Postgres":
                     {
-                        services.AddDbContext<DatabaseContext>(options => options.UseNpgsql(connectionString));
+                        services.AddDbContext<DatabaseContext>(options => options.UseNpgsql(connectionString), ServiceLifetime.Transient);
                         break;
                     }
                 case "MySql":
                     {
-                        services.AddDbContext<DatabaseContext>(options => options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+                        services.AddDbContext<DatabaseContext>(options => options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)), ServiceLifetime.Transient);
                         break;
                     }
                 case "MsSql":
                     {
-                        services.AddDbContext<DatabaseContext>(options => options.UseSqlServer(connectionString));
+                        services.AddDbContext<DatabaseContext>(options => options.UseSqlServer(connectionString), ServiceLifetime.Transient);
                         break;
                     }
             }
