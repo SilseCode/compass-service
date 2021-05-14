@@ -23,15 +23,19 @@ namespace CompassSite.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly ProductService _productService;
+        private readonly Initializer _initializer;
 
-        public HomeController(ILogger<HomeController> logger, ProductService productService)
+
+        public HomeController(ILogger<HomeController> logger, ProductService productService, Initializer initializer)
         {
             _logger = logger;
             _productService = productService;
+            _initializer = initializer;
         }
         [HttpGet("/")]
         public async Task<IActionResult> Index()
         {
+            await _initializer.Init();
             return View();
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

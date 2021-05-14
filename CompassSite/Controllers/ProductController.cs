@@ -15,17 +15,15 @@ namespace Compass.Site.Controllers
     public class ProductController : Controller
     {
         private readonly ProductService _productService;
-        private Initializer _initializer;
 
-        public ProductController(ProductService productService, Initializer initializer)
+        public ProductController(ProductService productService)
         {
             _productService = productService;
-            _initializer = initializer;
-            _initializer.Init();
         }
 
         public async Task<IActionResult> Products(int page = 1)
         {
+           
             List<Product> products = _productService.GetProducts();
             ProductsViewModel viewModel = _productService.Paginate(products, page);
             return View(viewModel);

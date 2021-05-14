@@ -21,7 +21,7 @@ namespace Compass.Site.Database
         private readonly UserManager<User> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IConfiguration _configuration;
-
+        private bool _initialized;
         public Initializer(DatabaseContext context,
             UserManager<User> userManager,
             RoleManager<IdentityRole> roleManager,
@@ -35,31 +35,31 @@ namespace Compass.Site.Database
 
         public async Task Init()
         {
-            if (_context.Categories.Count() != 0 || _context.Products.Count() != 0)
+            if (!_context.Categories.Any() && !_context.Products.Any())
             {
-                return;
+                List<Product> products = GetProductsFromJson();
+                IEnumerable<Category> categories = products.Select(t => t.Category).Distinct(new CategoryComparer());
+                await _context.Categories.AddRangeAsync(categories);
+                await _context.SaveChangesAsync();
+                products.ForEach(t => t.Category = null);
+                await _context.Products.AddRangeAsync(products);
+                await _context.SaveChangesAsync();
             }
-            List<Product> products = GetProductsFromJson();
-            IEnumerable<Category> categories = products.Select(t => t.Category).Distinct(new CategoryComparer());
-            await _context.Categories.AddRangeAsync(categories);
-            await _context.SaveChangesAsync();
-            products.ForEach(t => t.Category = null);
-            await _context.Products.AddRangeAsync(products);
-            await _context.SaveChangesAsync();
-
-            IdentityRole adminRole = new IdentityRole("Admin");
-            IdentityRole userRole = new IdentityRole("User");
-            await _roleManager.CreateAsync(adminRole);
-            await _roleManager.CreateAsync(userRole);
-
-            User admin = new User()
+            if (!_context.Users.Any())
             {
-                Email = "thesilsemail@gmail.com",
-                UserName = "Admin"
-            };
-            await _userManager.CreateAsync(admin, _configuration["AdminPassword"]);
-            await _userManager.AddToRoleAsync(admin, adminRole.Name);
+                IdentityRole adminRole = new IdentityRole("Admin");
+                IdentityRole userRole = new IdentityRole("User");
+                await _roleManager.CreateAsync(adminRole);
+                await _roleManager.CreateAsync(userRole);
 
+                User admin = new User()
+                {
+                    Email = "thesilsemail@gmail.com",
+                    UserName = "Admin"
+                };
+                await _userManager.CreateAsync(admin, _configuration["AdminPassword"]);
+                await _userManager.AddToRoleAsync(admin, adminRole.Name);
+            }
         }
 
         private List<Product> GetProductsFromJson()
