@@ -48,7 +48,12 @@ namespace CompassSite
         private void RegisterDatabaseContext(IServiceCollection services)
         {
             string dbProvider = Configuration["DatabaseProvider"];
-            string connectionString = Configuration[$"ConnectionStrings:{dbProvider}"]; 
+            string connectionString = null;
+#if DEBUG
+            connectionString = Configuration[$"ConnectionStrings:{dbProvider}"];
+#else
+            connectionString = Configuration["ConnectionString"];
+#endif
             switch (dbProvider)
             {
                 case "Postgres":
