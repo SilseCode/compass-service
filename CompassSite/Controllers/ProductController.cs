@@ -39,7 +39,6 @@ namespace Compass.Site.Controllers
 
         public IActionResult GetProductPage(int productId)
         {
-            
             return View("ProductPage");
         }
     }

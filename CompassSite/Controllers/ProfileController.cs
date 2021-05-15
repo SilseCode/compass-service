@@ -44,15 +44,19 @@ namespace Compass.Site.Controllers
         public async Task<IActionResult> GetProfile(string userId)
         {
             User user = await _userManager.FindByIdAsync(userId);
-
-            ProfileViewModel profileViewModel = new ProfileViewModel()
+            if (user != null)
             {
-                Name = user.UserName,
-                Password = "",
-                NewPassword = "",
-                AvatarUrl = user.AvatarUrl
-            };
-            return View("Profile", profileViewModel);
+                ProfileViewModel profileViewModel = new ProfileViewModel()
+                {
+                    Name = user.UserName,
+                    Password = "",
+                    NewPassword = "",
+                    AvatarUrl = user.AvatarUrl
+                };
+                return View("Profile", profileViewModel);
+            }
+
+            return View("Profile", new ProfileViewModel());
         }
 
         public async Task<IActionResult> ChangeAvatar(string userId, string avatarUrl)

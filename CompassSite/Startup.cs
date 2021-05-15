@@ -58,17 +58,17 @@ namespace CompassSite
             {
                 case "Postgres":
                     {
-                        services.AddDbContext<DatabaseContext>(options => options.UseNpgsql(connectionString), ServiceLifetime.Transient);
+                        services.AddDbContext<DatabaseContext>(options => options.UseNpgsql(connectionString, opt=>opt.EnableRetryOnFailure(5)));
                         break;
                     }
                 case "MySql":
                     {
-                        services.AddDbContext<DatabaseContext>(options => options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)), ServiceLifetime.Transient);
+                        services.AddDbContext<DatabaseContext>(options => options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
                         break;
                     }
                 case "MsSql":
                     {
-                        services.AddDbContext<DatabaseContext>(options => options.UseSqlServer(connectionString), ServiceLifetime.Transient);
+                        services.AddDbContext<DatabaseContext>(options => options.UseSqlServer(connectionString));
                         break;
                     }
             }
