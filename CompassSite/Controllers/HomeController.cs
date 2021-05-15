@@ -32,7 +32,6 @@ namespace CompassSite.Controllers
             _productService = productService;
             _initializer = initializer;
         }
-        [HttpGet("/")]
         public async Task<IActionResult> Index()
         {
             await _initializer.Init();
