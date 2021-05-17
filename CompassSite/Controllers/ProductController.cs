@@ -23,7 +23,6 @@ namespace Compass.Site.Controllers
 
         public async Task<IActionResult> Products(int page = 1)
         {
-           
             List<Product> products = _productService.GetProducts();
             ProductsViewModel viewModel = _productService.Paginate(products, page);
             return View(viewModel);
@@ -34,12 +33,6 @@ namespace Compass.Site.Controllers
             ProductsViewModel viewModel = _productService.Paginate(products, page);
             viewModel.PageInfo.CategoryId = categoryId;
             return View("Products",viewModel);
-        }
-
-
-        public IActionResult GetProductPage(int productId)
-        {
-            return View("ProductPage");
         }
     }
 }

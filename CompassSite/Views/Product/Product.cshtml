@@ -2,10 +2,17 @@
 @model Product
 <div class="product border container row w-100 m-2 p-2">
    <div class="col-3 m-0 p-0">
-      <img class="max-w-10 m-auto" src="@Url.Content($"{@Model.Category.CommonProductImgUrl}")" />
+      @if (!string.IsNullOrWhiteSpace(Model.ImgUrl))
+      {
+         <img class="max-w-10 m-auto" src="@Url.Content($"{@Model.ImgUrl}")" />
+      }
+      else
+      {
+         <img class="max-w-10 m-auto" src="@Url.Content($"{@Model.Category.CommonProductImgUrl}")" />
+      }
    </div>
    <div class="col-6">
-      <a asp-controller="Product" asp-action="GetProductPage" asp-route-productId="@Model.Id">@Model.Name</a>
+      <span>@Model.Name</span>
    </div>
    <div class="row col-2 m-0 p-0">
       <div class="d-flex flex-column align-content-between h-100 m-0 p-0">

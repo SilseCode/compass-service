@@ -66,22 +66,22 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toogleContent" aria-controls="toogleContent" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
       </button>
-      <span class="shopping-cart nav-item navbar-collapse collapse justify-content-end">
+      <span class="shopping-cart nav-item navbar-collapse collapse justify-content-end mr-3">
          <a class="nav-link text-white" asp-controller="Cart" asp-action="ShopCart"><img src="~/images/shopping_cart.png" alt="Корзина" />Корзина</a>
       </span>
       <div class="nav-item navbar-collapse collapse ">
          @{
             if (User.Identity.IsAuthenticated)
             {
-                  <a asp-controller="Profile" asp-action="GetProfile" asp-route-userId="@User.Identity.GetUserId()"><span class="navbar-brand font-weight-bold">@User.Identity.Name</span></a>
+               <a asp-controller="Profile" asp-action="GetProfile" asp-route-userId="@User.Identity.GetUserId()"><span class="navbar-brand font-weight-bold">@User.Identity.Name</span></a>
                <form asp-action="Logout" asp-controller="Account" method="post">
                   <input class="btn btn-sm btn-light btn" type="submit" value="Выход">
                </form>
             }
             else
             {
-               <div class="nav-item justify-content-between ">
-                  <a class="btn-link text-decoration-none text-white justify-content-end border-light font-weight-bolder" asp-controller="Account" asp-action="Login">Войти</a>
+               <div class="nav-item">
+                  <a class="btn-link text-decoration-none text-white justify-content-end border-light font-weight-bolder mr-3" asp-controller="Account" asp-action="Login">Войти</a>
                   <a class="btn-link text-decoration-none text-white justify-content-end border-light font-weight-bolder" asp-controller="Account" asp-action="Register">Регистрация</a>
                </div>
             }
@@ -115,6 +115,7 @@
                <li class="nav-item"><a class="text-white font-weight-bold" asp-controller="Home" asp-action="About">О нас</a></li>
                <li class="nav-item"><a class="text-white font-weight-bold" asp-controller="Home" asp-action="Contacts">Контакты</a></li>
                <li class="nav-item"><a class="text-white font-weight-bold" asp-controller="Home" asp-action="Services">Услуги</a></li>
+               <li class="nav-item"><a class="text-white font-weight-bold" asp-controller="Product" asp-action="Products" asp-route-page="1">Каталог товаров</a></li>
             </ul>
          </div>
       </div>

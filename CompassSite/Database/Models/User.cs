@@ -14,6 +14,7 @@ namespace CompassSite.Database.Models
         [ForeignKey("CartId")]
         public ShopCart Cart { get; set; }
         public string AvatarUrl { get; set; }
+        
     }
     
 }

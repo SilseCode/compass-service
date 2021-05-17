@@ -1,3 +1,4 @@
+using System;
 using Compass.Site.Database;
 using Compass.Site.Services;
 using CompassSite.Database.Contexts;
@@ -5,6 +6,7 @@ using CompassSite.Database.Interfaces;
 using CompassSite.Database.Models;
 using CompassSite.Database.Repositories;
 using CompassSite.Services;
+using EasyData.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
@@ -95,6 +97,11 @@ namespace CompassSite
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}");
+
+                endpoints.MapEasyData(options =>
+                {
+                    options.UseDbContext<DatabaseContext>();
+                });
             });
         }
     }

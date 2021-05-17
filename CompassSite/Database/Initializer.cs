@@ -54,8 +54,9 @@ namespace Compass.Site.Database
 
                 User admin = new User()
                 {
-                    Email = "thesilsemail@gmail.com",
-                    UserName = "Admin"
+                    Email = _configuration["AdminEmail"],
+                    UserName = "Admin", 
+                    AvatarUrl = "https://st.depositphotos.com/2704315/3185/v/600/depositphotos_31854223-stock-illustration-vector-user-profile-avatar-man.jpg"
                 };
                 await _userManager.CreateAsync(admin, _configuration["AdminPassword"]);
                 await _userManager.AddToRoleAsync(admin, adminRole.Name);
