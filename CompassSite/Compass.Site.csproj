@@ -81,6 +81,12 @@
     <Content Update="wwwroot\images\categories\icons\cabel.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Update="wwwroot\images\categories\icons\clock.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\categories\icons\cooler.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Update="wwwroot\images\categories\icons\cpu.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -141,6 +147,7 @@
     <Content Update="wwwroot\images\categories\icons\ssd.png">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Update="wwwroot\images\categories\icons\videocamera.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -172,8 +179,8 @@
     <Content Update="wwwroot\images\categories\notebook.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\images\categories\pc.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Update="wwwroot\images\categories\computers.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
     <Content Update="wwwroot\images\categories\playstation.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
