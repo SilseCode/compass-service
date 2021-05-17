@@ -836,7 +836,7 @@
       "Id": 7,
       "Name": "Компьютеры",
       "IconUrl": "~/images/categories/icons/pc.png",
-      "CommonProductImgUrl": "~/images/categories/computers.png"
+      "CommonProductImgUrl": "~/images/categories/pc.png"
     }
   },
   {
@@ -850,7 +850,7 @@
       "Id": 7,
       "Name": "Компьютеры",
       "IconUrl": "~/images/categories/icons/pc.png",
-      "CommonProductImgUrl": "~/images/categories/computers.png"
+      "CommonProductImgUrl": "~/images/categories/pc.png"
     }
   },
   {
@@ -864,7 +864,7 @@
       "Id": 7,
       "Name": "Компьютеры",
       "IconUrl": "~/images/categories/icons/pc.png",
-      "CommonProductImgUrl": "~/images/categories/computers.png"
+      "CommonProductImgUrl": "~/images/categories/pc.png"
     }
   },
   {
@@ -878,7 +878,7 @@
       "Id": 7,
       "Name": "Компьютеры",
       "IconUrl": "~/images/categories/icons/pc.png",
-      "CommonProductImgUrl": "~/images/categories/computers.png"
+      "CommonProductImgUrl": "~/images/categories/pc.png"
     }
   },
   {
@@ -892,7 +892,7 @@
       "Id": 7,
       "Name": "Компьютеры",
       "IconUrl": "~/images/categories/icons/pc.png",
-      "CommonProductImgUrl": "~/images/categories/computers.png"
+      "CommonProductImgUrl": "~/images/categories/pc.png"
     }
   },
   {
@@ -906,7 +906,7 @@
       "Id": 7,
       "Name": "Компьютеры",
       "IconUrl": "~/images/categories/icons/pc.png",
-      "CommonProductImgUrl": "~/images/categories/computers.png"
+      "CommonProductImgUrl": "~/images/categories/pc.png"
     }
   },
   {
@@ -920,7 +920,7 @@
       "Id": 7,
       "Name": "Компьютеры",
       "IconUrl": "~/images/categories/icons/pc.png",
-      "CommonProductImgUrl": "~/images/categories/computers.png"
+      "CommonProductImgUrl": "~/images/categories/pc.png"
     }
   },
   {
@@ -934,7 +934,7 @@
       "Id": 7,
       "Name": "Компьютеры",
       "IconUrl": "~/images/categories/icons/pc.png",
-      "CommonProductImgUrl": "~/images/categories/computers.png"
+      "CommonProductImgUrl": "~/images/categories/pc.png"
     }
   },
   {
@@ -948,7 +948,7 @@
       "Id": 7,
       "Name": "Компьютеры",
       "IconUrl": "~/images/categories/icons/pc.png",
-      "CommonProductImgUrl": "~/images/categories/computers.png"
+      "CommonProductImgUrl": "~/images/categories/pc.png"
     }
   },
   {
@@ -962,7 +962,7 @@
       "Id": 7,
       "Name": "Компьютеры",
       "IconUrl": "~/images/categories/icons/pc.png",
-      "CommonProductImgUrl": "~/images/categories/computers.png"
+      "CommonProductImgUrl": "~/images/categories/pc.png"
     }
   },
   {
@@ -976,7 +976,7 @@
       "Id": 7,
       "Name": "Компьютеры",
       "IconUrl": "~/images/categories/icons/pc.png",
-      "CommonProductImgUrl": "~/images/categories/computers.png"
+      "CommonProductImgUrl": "~/images/categories/pc.png"
     }
   },
   {
@@ -990,7 +990,7 @@
       "Id": 7,
       "Name": "Компьютеры",
       "IconUrl": "~/images/categories/icons/pc.png",
-      "CommonProductImgUrl": "~/images/categories/computers.png"
+      "CommonProductImgUrl": "~/images/categories/pc.png"
     }
   },
   {
@@ -1004,7 +1004,7 @@
       "Id": 7,
       "Name": "Компьютеры",
       "IconUrl": "~/images/categories/icons/pc.png",
-      "CommonProductImgUrl": "~/images/categories/computers.png"
+      "CommonProductImgUrl": "~/images/categories/pc.png"
     }
   },
   {
@@ -1018,7 +1018,7 @@
       "Id": 7,
       "Name": "Компьютеры",
       "IconUrl": "~/images/categories/icons/pc.png",
-      "CommonProductImgUrl": "~/images/categories/computers.png"
+      "CommonProductImgUrl": "~/images/categories/pc.png"
     }
   },
   {
@@ -1032,7 +1032,7 @@
       "Id": 7,
       "Name": "Компьютеры",
       "IconUrl": "~/images/categories/icons/pc.png",
-      "CommonProductImgUrl": "~/images/categories/computers.png"
+      "CommonProductImgUrl": "~/images/categories/pc.png"
     }
   },
   {
@@ -3258,7 +3258,7 @@
       "Id": 102,
       "Name": "Процессоры",
       "IconUrl": "~/images/categories/icons/cpu.png",
-      "CommonProductImgUrl": "~/images/categories/CPU.png"
+      "CommonProductImgUrl": "~/images/categories/cpu.png"
     }
   },
   {
@@ -3272,7 +3272,7 @@
       "Id": 102,
       "Name": "Процессоры",
       "IconUrl": "~/images/categories/icons/cpu.png",
-      "CommonProductImgUrl": "~/images/categories/CPU.png"
+      "CommonProductImgUrl": "~/images/categories/cpu.png"
     }
   },
   {
@@ -3286,7 +3286,7 @@
       "Id": 102,
       "Name": "Процессоры",
       "IconUrl": "~/images/categories/icons/cpu.png",
-      "CommonProductImgUrl": "~/images/categories/CPU.png"
+      "CommonProductImgUrl": "~/images/categories/cpu.png"
     }
   },
   {
@@ -3300,7 +3300,7 @@
       "Id": 102,
       "Name": "Процессоры",
       "IconUrl": "~/images/categories/icons/cpu.png",
-      "CommonProductImgUrl": "~/images/categories/CPU.png"
+      "CommonProductImgUrl": "~/images/categories/cpu.png"
     }
   },
   {

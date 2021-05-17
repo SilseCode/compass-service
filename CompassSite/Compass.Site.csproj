@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>d5494a88-d827-4d03-9ea0-742cc784aff8</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -65,7 +66,7 @@
     <Content Update="wwwroot\images\categories\flesh.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\images\categories\gps.png">
+    <Content Update="wwwroot\images\categories\GPS.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Update="wwwroot\images\categories\HDD.png">
