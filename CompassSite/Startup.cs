@@ -1,4 +1,5 @@
 using System;
+using AspNetCore.SEOHelper;
 using Compass.Site.Database;
 using Compass.Site.Services;
 using CompassSite.Database.Contexts;
@@ -45,6 +46,7 @@ namespace CompassSite
             services.AddScoped<ShopCartManager>();
             services.AddSession(session => session.IdleTimeout = new System.TimeSpan(3, 0, 0, 0));
             services.AddMemoryCache();
+            
         }
 
         private void RegisterDatabaseContext(IServiceCollection services)
@@ -83,10 +85,11 @@ namespace CompassSite
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            app.UseRouting();
             app.UseAuthentication();
+            app.UseRouting();
             app.UseAuthorization();
             app.UseSession();
+            app.UseRobotsTxt(env.ContentRootPath);
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
