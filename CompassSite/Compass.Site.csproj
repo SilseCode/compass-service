@@ -60,14 +60,14 @@
     <Content Update="wwwroot\images\categories\corpus.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\images\categories\cpu.png">
+    <Content Update="wwwroot\images\categories\CPU.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Update="wwwroot\images\categories\flesh.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Update="wwwroot\images\categories\GPS.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Update="wwwroot\images\categories\HDD.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
